@@ -1,0 +1,160 @@
+[08-Mar-2025 11:50:33 UTC] PHP Warning:  move_uploaded_file(/ajay/post/profile-image/1741434633_WhatsApp Image 2025-03-02 at 17.53.00.jpeg): Failed to open stream: No such file or directory in /home/ajayembr/public_html/ajay/post/edit-profile.php on line 63
+[08-Mar-2025 11:50:33 UTC] PHP Warning:  move_uploaded_file(): Unable to move &quot;/tmp/phpoW8SGQ&quot; to &quot;/ajay/post/profile-image/1741434633_WhatsApp Image 2025-03-02 at 17.53.00.jpeg&quot; in /home/ajayembr/public_html/ajay/post/edit-profile.php on line 63
+[08-Mar-2025 11:57:21 UTC] PHP Warning:  move_uploaded_file(https://ajaysah.in/ajay/post/profile-image/1741435041_WhatsApp Image 2025-03-02 at 17.52.32.jpeg): Failed to open stream: HTTP wrapper does not support writeable connections in /home/ajayembr/public_html/ajay/post/edit-profile.php on line 63
+[08-Mar-2025 11:57:21 UTC] PHP Warning:  move_uploaded_file(): Unable to move &quot;/tmp/php5HIkAs&quot; to &quot;https://ajaysah.in/ajay/post/profile-image/1741435041_WhatsApp Image 2025-03-02 at 17.52.32.jpeg&quot; in /home/ajayembr/public_html/ajay/post/edit-profile.php on line 63
+[08-Mar-2025 12:47:23 UTC] PHP Notice:  Only variables should be passed by reference in /home/ajayembr/public_html/ajay/post/add-post.php on line 33
+[08-Mar-2025 12:47:23 UTC] PHP Warning:  move_uploaded_file(https://ajaysah.in/ajay/post/uploaded-image/76a6a0ce627fedc3e02b4c975cb3a950.jpg): Failed to open stream: HTTP wrapper does not support writeable connections in /home/ajayembr/public_html/ajay/post/add-post.php on line 43
+[08-Mar-2025 12:47:23 UTC] PHP Warning:  move_uploaded_file(): Unable to move &quot;/tmp/phpp98Ags&quot; to &quot;https://ajaysah.in/ajay/post/uploaded-image/76a6a0ce627fedc3e02b4c975cb3a950.jpg&quot; in /home/ajayembr/public_html/ajay/post/add-post.php on line 43
+[08-Mar-2025 12:59:31 UTC] PHP Notice:  Only variables should be passed by reference in /home/ajayembr/public_html/ajay/post/add-post.php on line 33
+[08-Mar-2025 12:59:31 UTC] PHP Warning:  move_uploaded_file(https://ajaysah.in/ajay/post/uploaded-image/IMG_20230820_121608_563.jpg): Failed to open stream: HTTP wrapper does not support writeable connections in /home/ajayembr/public_html/ajay/post/add-post.php on line 43
+[08-Mar-2025 12:59:31 UTC] PHP Warning:  move_uploaded_file(): Unable to move &quot;/tmp/php1nXYAg&quot; to &quot;https://ajaysah.in/ajay/post/uploaded-image/IMG_20230820_121608_563.jpg&quot; in /home/ajayembr/public_html/ajay/post/add-post.php on line 43
+[08-Mar-2025 18:40:52 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'video_url_path' in 'INSERT INTO' in /home/ajayembr/public_html/ajay/post/add-video.php:52
+Stack trace:
+#0 /home/ajayembr/public_html/ajay/post/add-video.php(52): mysqli_query()
+#1 {main}
+  thrown in /home/ajayembr/public_html/ajay/post/add-video.php on line 52
+[08-Mar-2025 18:45:49 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'video_url_path' in 'INSERT INTO' in /home/ajayembr/public_html/ajay/post/add-video.php:52
+Stack trace:
+#0 /home/ajayembr/public_html/ajay/post/add-video.php(52): mysqli_query()
+#1 {main}
+  thrown in /home/ajayembr/public_html/ajay/post/add-video.php on line 52
+[08-Mar-2025 18:52:59 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'video_url_path' in 'INSERT INTO' in /home/ajayembr/public_html/ajay/post/add-video.php:55
+Stack trace:
+#0 /home/ajayembr/public_html/ajay/post/add-video.php(55): mysqli_query()
+#1 {main}
+  thrown in /home/ajayembr/public_html/ajay/post/add-video.php on line 55
+[08-Mar-2025 13:58:51 UTC] PHP Warning:  move_uploaded_file(https://ajaysah.in/ajay/post/profile-image/1741442331_WhatsApp Image 2025-02-20 at 15.16.48.jpeg): Failed to open stream: HTTP wrapper does not support writeable connections in /home/ajayembr/public_html/ajay/post/edit-profile.php on line 63
+[08-Mar-2025 13:58:51 UTC] PHP Warning:  move_uploaded_file(): Unable to move &quot;/tmp/phpZvxPdD&quot; to &quot;https://ajaysah.in/ajay/post/profile-image/1741442331_WhatsApp Image 2025-02-20 at 15.16.48.jpeg&quot; in /home/ajayembr/public_html/ajay/post/edit-profile.php on line 63
+[08-Mar-2025 14:05:09 UTC] PHP Warning:  move_uploaded_file(https://ajaysah.in/ajay/post/profile-image/1741442709_WhatsApp Image 2025-02-20 at 15.16.48.jpeg): Failed to open stream: HTTP wrapper does not support writeable connections in /home/ajayembr/public_html/ajay/post/edit-profile.php on line 63
+[08-Mar-2025 14:05:09 UTC] PHP Warning:  move_uploaded_file(): Unable to move &quot;/tmp/phpPjDUk6&quot; to &quot;https://ajaysah.in/ajay/post/profile-image/1741442709_WhatsApp Image 2025-02-20 at 15.16.48.jpeg&quot; in /home/ajayembr/public_html/ajay/post/edit-profile.php on line 63
+[08-Mar-2025 14:07:48 UTC] PHP Warning:  move_uploaded_file(https://ajaysah.in/ajay/post/profile-image/1741442868_WhatsApp Image 2025-02-20 at 15.16.48.jpeg): Failed to open stream: HTTP wrapper does not support writeable connections in /home/ajayembr/public_html/ajay/post/edit-profile.php on line 63
+[08-Mar-2025 14:07:48 UTC] PHP Warning:  move_uploaded_file(): Unable to move &quot;/tmp/phpaOCXg6&quot; to &quot;https://ajaysah.in/ajay/post/profile-image/1741442868_WhatsApp Image 2025-02-20 at 15.16.48.jpeg&quot; in /home/ajayembr/public_html/ajay/post/edit-profile.php on line 63
+[08-Mar-2025 14:12:15 UTC] PHP Warning:  move_uploaded_file(https://ajaysah.in/ajay/post/profile-image/1741443135_WhatsApp Image 2025-03-02 at 17.52.32.jpeg): Failed to open stream: HTTP wrapper does not support writeable connections in /home/ajayembr/public_html/ajay/post/edit-profile.php on line 63
+[08-Mar-2025 14:12:15 UTC] PHP Warning:  move_uploaded_file(): Unable to move &quot;/tmp/phpO2IGls&quot; to &quot;https://ajaysah.in/ajay/post/profile-image/1741443135_WhatsApp Image 2025-03-02 at 17.52.32.jpeg&quot; in /home/ajayembr/public_html/ajay/post/edit-profile.php on line 63
+[08-Mar-2025 14:20:44 UTC] PHP Warning:  move_uploaded_file(https://ajaysah.in/ajay/post/profile-image/1741443644_WhatsApp Image 2025-02-20 at 15.16.48.jpeg): Failed to open stream: HTTP wrapper does not support writeable connections in /home/ajayembr/public_html/ajay/post/edit-profile.php on line 63
+[08-Mar-2025 14:20:44 UTC] PHP Warning:  move_uploaded_file(): Unable to move &quot;/tmp/phpi7rt7u&quot; to &quot;https://ajaysah.in/ajay/post/profile-image/1741443644_WhatsApp Image 2025-02-20 at 15.16.48.jpeg&quot; in /home/ajayembr/public_html/ajay/post/edit-profile.php on line 63
+[08-Mar-2025 14:22:04 UTC] PHP Warning:  move_uploaded_file(https://ajaysah.in/ajay/post/profile-image/1741443724_WhatsApp Image 2025-02-20 at 15.16.48.jpeg): Failed to open stream: HTTP wrapper does not support writeable connections in /home/ajayembr/public_html/ajay/post/edit-profile.php on line 63
+[08-Mar-2025 14:22:04 UTC] PHP Warning:  move_uploaded_file(): Unable to move &quot;/tmp/phpJNREj8&quot; to &quot;https://ajaysah.in/ajay/post/profile-image/1741443724_WhatsApp Image 2025-02-20 at 15.16.48.jpeg&quot; in /home/ajayembr/public_html/ajay/post/edit-profile.php on line 63
+[08-Mar-2025 14:24:32 UTC] PHP Warning:  move_uploaded_file(https://ajaysah.in/ajay/post/profile-image/1741443872_WhatsApp Image 2025-02-20 at 15.16.48.jpeg): Failed to open stream: HTTP wrapper does not support writeable connections in /home/ajayembr/public_html/ajay/post/edit-profile.php on line 63
+[08-Mar-2025 14:24:32 UTC] PHP Warning:  move_uploaded_file(): Unable to move &quot;/tmp/php6P97Bp&quot; to &quot;https://ajaysah.in/ajay/post/profile-image/1741443872_WhatsApp Image 2025-02-20 at 15.16.48.jpeg&quot; in /home/ajayembr/public_html/ajay/post/edit-profile.php on line 63
+[08-Mar-2025 14:25:34 UTC] PHP Warning:  move_uploaded_file(https://ajaysah.in/ajay/post/profile-image/1741443934_WhatsApp Image 2025-02-20 at 15.16.48.jpeg): Failed to open stream: HTTP wrapper does not support writeable connections in /home/ajayembr/public_html/ajay/post/edit-profile.php on line 63
+[08-Mar-2025 14:25:34 UTC] PHP Warning:  move_uploaded_file(): Unable to move &quot;/tmp/phpEW8FjJ&quot; to &quot;https://ajaysah.in/ajay/post/profile-image/1741443934_WhatsApp Image 2025-02-20 at 15.16.48.jpeg&quot; in /home/ajayembr/public_html/ajay/post/edit-profile.php on line 63
+[08-Mar-2025 14:26:24 UTC] PHP Warning:  move_uploaded_file(https://ajaysah.in/ajay/post/profile-image/1741443984_WhatsApp Image 2025-03-02 at 17.52.32.jpeg): Failed to open stream: HTTP wrapper does not support writeable connections in /home/ajayembr/public_html/ajay/post/edit-profile.php on line 63
+[08-Mar-2025 14:26:24 UTC] PHP Warning:  move_uploaded_file(): Unable to move &quot;/tmp/phphOIEBD&quot; to &quot;https://ajaysah.in/ajay/post/profile-image/1741443984_WhatsApp Image 2025-03-02 at 17.52.32.jpeg&quot; in /home/ajayembr/public_html/ajay/post/edit-profile.php on line 63
+[08-Mar-2025 14:30:17 UTC] PHP Warning:  move_uploaded_file(https://ajaysah.in/ajay/post/profile-image/1741444217_WhatsApp Image 2025-02-20 at 15.16.48.jpeg): Failed to open stream: HTTP wrapper does not support writeable connections in /home/ajayembr/public_html/ajay/post/edit-profile.php on line 63
+[08-Mar-2025 14:30:17 UTC] PHP Warning:  move_uploaded_file(): Unable to move &quot;/tmp/php0qoVK9&quot; to &quot;https://ajaysah.in/ajay/post/profile-image/1741444217_WhatsApp Image 2025-02-20 at 15.16.48.jpeg&quot; in /home/ajayembr/public_html/ajay/post/edit-profile.php on line 63
+[08-Mar-2025 14:33:10 UTC] PHP Warning:  move_uploaded_file(https://ajaysah.in/ajay/post/profile-image/1741444390_WhatsApp Image 2025-03-02 at 17.53.00.jpeg): Failed to open stream: HTTP wrapper does not support writeable connections in /home/ajayembr/public_html/ajay/post/edit-profile.php on line 63
+[08-Mar-2025 14:33:10 UTC] PHP Warning:  move_uploaded_file(): Unable to move &quot;/tmp/phpnl5PrC&quot; to &quot;https://ajaysah.in/ajay/post/profile-image/1741444390_WhatsApp Image 2025-03-02 at 17.53.00.jpeg&quot; in /home/ajayembr/public_html/ajay/post/edit-profile.php on line 63
+[08-Mar-2025 14:40:00 UTC] PHP Warning:  Undefined array key "id" in /home/ajayembr/public_html/ajay/post/update-post.php on line 9
+[08-Mar-2025 14:40:00 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in /home/ajayembr/public_html/ajay/post/update-post.php:11
+Stack trace:
+#0 /home/ajayembr/public_html/ajay/post/update-post.php(11): mysqli_query()
+#1 {main}
+  thrown in /home/ajayembr/public_html/ajay/post/update-post.php on line 11
+[08-Mar-2025 14:48:59 UTC] PHP Warning:  move_uploaded_file(https://ajaysah.in/ajay/post/profile-image/1741445339_WhatsApp Image 2025-02-20 at 15.16.48.jpeg): Failed to open stream: HTTP wrapper does not support writeable connections in /home/ajayembr/public_html/ajay/post/edit-profile.php on line 60
+[08-Mar-2025 14:48:59 UTC] PHP Warning:  move_uploaded_file(): Unable to move &quot;/tmp/phpPgkjDe&quot; to &quot;https://ajaysah.in/ajay/post/profile-image/1741445339_WhatsApp Image 2025-02-20 at 15.16.48.jpeg&quot; in /home/ajayembr/public_html/ajay/post/edit-profile.php on line 60
+[08-Mar-2025 14:54:03 UTC] PHP Parse error:  syntax error, unexpected variable "$target_file" in /home/ajayembr/public_html/ajay/post/edit-profile.php on line 61
+[08-Mar-2025 14:54:13 UTC] PHP Parse error:  syntax error, unexpected variable "$target_file" in /home/ajayembr/public_html/ajay/post/edit-profile.php on line 61
+[08-Mar-2025 14:55:50 UTC] PHP Warning:  move_uploaded_file(ajay/post/profile-image/1741445750_WhatsApp Image 2025-02-20 at 15.16.48.jpeg): Failed to open stream: No such file or directory in /home/ajayembr/public_html/ajay/post/edit-profile.php on line 60
+[08-Mar-2025 14:55:50 UTC] PHP Warning:  move_uploaded_file(): Unable to move &quot;/tmp/phpaDQoJH&quot; to &quot;ajay/post/profile-image/1741445750_WhatsApp Image 2025-02-20 at 15.16.48.jpeg&quot; in /home/ajayembr/public_html/ajay/post/edit-profile.php on line 60
+[08-Mar-2025 15:09:59 UTC] PHP Warning:  Undefined array key "id" in /home/ajayembr/public_html/ajay/post/update-post.php on line 10
+[08-Mar-2025 15:09:59 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in /home/ajayembr/public_html/ajay/post/update-post.php:12
+Stack trace:
+#0 /home/ajayembr/public_html/ajay/post/update-post.php(12): mysqli_query()
+#1 {main}
+  thrown in /home/ajayembr/public_html/ajay/post/update-post.php on line 12
+[08-Mar-2025 15:12:28 UTC] PHP Warning:  unlink(/ajay/post/uploaded-image/https://ajaysah.in/ajay/post/profile-image/1741446313_WhatsApp Image 2025-03-02 at 17.52.32.jpeg): No such file or directory in /home/ajayembr/public_html/ajay/post/delete-post.php on line 10
+[08-Mar-2025 15:12:28 UTC] PHP Warning:  unlink(/ajay/post/uploaded-video/https://ajaysah.in/ajay/post/uploaded-video/1741441379_3393_video.mp4): No such file or directory in /home/ajayembr/public_html/ajay/post/delete-post.php on line 11
+[08-Mar-2025 15:12:31 UTC] PHP Warning:  unlink(/ajay/post/uploaded-image/https://ajaysah.in/ajay/post/profile-image/1741446313_WhatsApp Image 2025-03-02 at 17.52.32.jpeg): No such file or directory in /home/ajayembr/public_html/ajay/post/delete-post.php on line 10
+[08-Mar-2025 15:12:31 UTC] PHP Warning:  unlink(/ajay/post/uploaded-video/): No such file or directory in /home/ajayembr/public_html/ajay/post/delete-post.php on line 11
+[08-Mar-2025 15:15:23 UTC] PHP Warning:  Undefined array key "id" in /home/ajayembr/public_html/ajay/post/update-post.php on line 10
+[08-Mar-2025 15:15:23 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in /home/ajayembr/public_html/ajay/post/update-post.php:12
+Stack trace:
+#0 /home/ajayembr/public_html/ajay/post/update-post.php(12): mysqli_query()
+#1 {main}
+  thrown in /home/ajayembr/public_html/ajay/post/update-post.php on line 12
+[08-Mar-2025 15:25:03 UTC] PHP Warning:  Undefined array key "id" in /home/ajayembr/public_html/ajay/post/update-post.php on line 10
+[08-Mar-2025 15:25:03 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in /home/ajayembr/public_html/ajay/post/update-post.php:12
+Stack trace:
+#0 /home/ajayembr/public_html/ajay/post/update-post.php(12): mysqli_query()
+#1 {main}
+  thrown in /home/ajayembr/public_html/ajay/post/update-post.php on line 12
+[09-Mar-2025 09:09:42 UTC] PHP Warning:  unlink(/ajay/post/uploaded-image/): No such file or directory in /home/ajayembr/public_html/ajay/post/delete-post.php on line 10
+[09-Mar-2025 09:09:42 UTC] PHP Warning:  unlink(/ajay/post/uploaded-video/https://ajaysah.in/ajay/post/uploaded-video/1741494883_3404_video.mp4): No such file or directory in /home/ajayembr/public_html/ajay/post/delete-post.php on line 11
+[09-Mar-2025 14:00:13 UTC] PHP Warning:  unlink(/ajay/post/uploaded-image/https://ajaysah.in/ajay/post/profile-image/1741447802_WhatsApp Image 2025-02-20 at 15.16.48.jpeg): No such file or directory in /home/ajayembr/public_html/ajay/post/delete-post.php on line 10
+[09-Mar-2025 14:00:13 UTC] PHP Warning:  unlink(/ajay/post/uploaded-video/https://ajaysah.in/ajay/post/uploaded-video/1741446860_8136_video.mp4): No such file or directory in /home/ajayembr/public_html/ajay/post/delete-post.php on line 11
+[09-Mar-2025 18:04:55 UTC] PHP Warning:  unlink(/ajay/post/uploaded-image/https://ajaysah.in/ajay/post/profile-image/1741447802_WhatsApp Image 2025-02-20 at 15.16.48.jpeg): No such file or directory in /home/ajayembr/public_html/ajay/post/delete-post.php on line 10
+[09-Mar-2025 18:04:55 UTC] PHP Warning:  unlink(/ajay/post/uploaded-video/https://ajaysah.in/ajay/post/uploaded-video/1741528735_4382_video.mp4): No such file or directory in /home/ajayembr/public_html/ajay/post/delete-post.php on line 11
+[10-Mar-2025 15:11:08 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ajayembr/public_html/ajay/post/post-footer.php on line 26
+[22-Mar-2025 14:31:56 UTC] PHP Warning:  unlink(/ajay/post/uploaded-image/https://ajaysah.in/ajay/post/uploaded-image/Picsart_25-03-22_19-48-00-494.jpg): No such file or directory in /home/ajayembr/public_html/ajay/post/delete-post.php on line 10
+[22-Mar-2025 14:31:56 UTC] PHP Warning:  unlink(/ajay/post/uploaded-video/): No such file or directory in /home/ajayembr/public_html/ajay/post/delete-post.php on line 11
+[22-Mar-2025 14:53:07 UTC] PHP Warning:  unlink(/ajay/post/uploaded-image/): No such file or directory in /home/ajayembr/public_html/ajay/post/delete-post.php on line 10
+[22-Mar-2025 14:53:07 UTC] PHP Warning:  unlink(/ajay/post/uploaded-video/https://ajaysah.in/ajay/post/uploaded-video/1742654978_9535_video.mp4): No such file or directory in /home/ajayembr/public_html/ajay/post/delete-post.php on line 11
+[22-Mar-2025 14:53:10 UTC] PHP Warning:  unlink(/ajay/post/uploaded-image/https://ajaysah.in/ajay/post/uploaded-image/Picsart_25-03-22_19-48-00-494.jpg): No such file or directory in /home/ajayembr/public_html/ajay/post/delete-post.php on line 10
+[22-Mar-2025 14:53:10 UTC] PHP Warning:  unlink(/ajay/post/uploaded-video/): No such file or directory in /home/ajayembr/public_html/ajay/post/delete-post.php on line 11
+[22-Mar-2025 14:57:48 UTC] PHP Warning:  unlink(/ajay/post/uploaded-image/https://ajaysah.in/ajay/post/uploaded-image/Picsart_25-03-22_19-48-00-494.jpg): No such file or directory in /home/ajayembr/public_html/ajay/post/delete-post.php on line 13
+[22-Mar-2025 15:06:45 UTC] PHP Warning:  unlink(/ajay/post/uploaded-video/1742633190_4395_video.mp4): No such file or directory in /home/ajayembr/public_html/ajay/post/delete-post.php on line 16
+[23-Mar-2025 10:22:34 UTC] PHP Warning:  unlink(/ajay/post/uploaded-video/1742716267_7105_video.mp4): No such file or directory in /home/ajayembr/public_html/ajay/post/delete-post.php on line 16
+[23-Mar-2025 10:30:46 UTC] PHP Warning:  unlink(/ajay/post/uploaded-image/https://ajaysah.in/ajay/post/uploaded-image/Screenshot_2025-03-23-11-54-58-54_1c337646f29875672b5a61192b9010f9.jpg): No such file or directory in /home/ajayembr/public_html/ajay/post/delete-post.php on line 13
+[23-Mar-2025 13:18:43 UTC] PHP Warning:  unlink(/ajay/post/uploaded-video/1742735827_5606_video.mp4): No such file or directory in /home/ajayembr/public_html/ajay/post/delete-post.php on line 16
+[23-Mar-2025 13:41:03 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in /home/ajayembr/public_html/ajay/post/delete-post.php:35
+Stack trace:
+#0 /home/ajayembr/public_html/ajay/post/delete-post.php(35): mysqli_multi_query()
+#1 {main}
+  thrown in /home/ajayembr/public_html/ajay/post/delete-post.php on line 35
+[23-Mar-2025 13:42:13 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in /home/ajayembr/public_html/ajay/post/delete-post.php:35
+Stack trace:
+#0 /home/ajayembr/public_html/ajay/post/delete-post.php(35): mysqli_multi_query()
+#1 {main}
+  thrown in /home/ajayembr/public_html/ajay/post/delete-post.php on line 35
+[23-Mar-2025 13:43:15 UTC] PHP Warning:  Undefined variable $user_name in /home/ajayembr/public_html/ajay/post/delete-post.php on line 20
+[23-Mar-2025 13:43:25 UTC] PHP Warning:  Undefined variable $user_name in /home/ajayembr/public_html/ajay/post/delete-post.php on line 20
+[23-Mar-2025 14:02:01 UTC] PHP Warning:  Undefined array key "id" in /home/ajayembr/public_html/ajay/post/delete-post.php on line 6
+[23-Mar-2025 14:02:01 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ';DELETE FROM likes WHERE post_id=' at line 1 in /home/ajayembr/public_html/ajay/post/delete-post.php:36
+Stack trace:
+#0 /home/ajayembr/public_html/ajay/post/delete-post.php(36): mysqli_multi_query()
+#1 {main}
+  thrown in /home/ajayembr/public_html/ajay/post/delete-post.php on line 36
+[23-Mar-2025 14:05:47 UTC] PHP Warning:  Undefined array key "id" in /home/ajayembr/public_html/ajay/post/delete-post.php on line 6
+[23-Mar-2025 14:05:47 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ';DELETE FROM likes WHERE post_id=' at line 1 in /home/ajayembr/public_html/ajay/post/delete-post.php:33
+Stack trace:
+#0 /home/ajayembr/public_html/ajay/post/delete-post.php(33): mysqli_multi_query()
+#1 {main}
+  thrown in /home/ajayembr/public_html/ajay/post/delete-post.php on line 33
+[23-Mar-2025 14:06:53 UTC] PHP Warning:  Undefined array key "id" in /home/ajayembr/public_html/ajay/post/delete-post.php on line 6
+[23-Mar-2025 14:06:53 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ';DELETE FROM likes WHERE post_id=' at line 1 in /home/ajayembr/public_html/ajay/post/delete-post.php:33
+Stack trace:
+#0 /home/ajayembr/public_html/ajay/post/delete-post.php(33): mysqli_multi_query()
+#1 {main}
+  thrown in /home/ajayembr/public_html/ajay/post/delete-post.php on line 33
+[23-Mar-2025 15:25:33 UTC] PHP Parse error:  Unclosed '{' on line 24 in /home/ajayembr/public_html/ajay/post/delete-post.php on line 81
+[23-Mar-2025 15:25:39 UTC] PHP Parse error:  Unclosed '{' on line 24 in /home/ajayembr/public_html/ajay/post/delete-post.php on line 81
+[23-Mar-2025 15:25:41 UTC] PHP Parse error:  Unclosed '{' on line 24 in /home/ajayembr/public_html/ajay/post/delete-post.php on line 81
+[23-Mar-2025 15:25:56 UTC] PHP Parse error:  Unclosed '{' on line 24 in /home/ajayembr/public_html/ajay/post/delete-post.php on line 81
+[23-Mar-2025 15:25:57 UTC] PHP Parse error:  Unclosed '{' on line 24 in /home/ajayembr/public_html/ajay/post/delete-post.php on line 81
+[23-Mar-2025 15:26:01 UTC] PHP Parse error:  Unclosed '{' on line 24 in /home/ajayembr/public_html/ajay/post/delete-post.php on line 81
+[02-Apr-2025 13:31:47 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'pdf_id' in 'SELECT' in /home/ajayembr/public_html/ajay/post/user.php:65
+Stack trace:
+#0 /home/ajayembr/public_html/ajay/post/user.php(65): mysqli_query()
+#1 {main}
+  thrown in /home/ajayembr/public_html/ajay/post/user.php on line 65
+[02-Apr-2025 13:33:00 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'pdf_id' in 'SELECT' in /home/ajayembr/public_html/ajay/post/user.php:65
+Stack trace:
+#0 /home/ajayembr/public_html/ajay/post/user.php(65): mysqli_query()
+#1 {main}
+  thrown in /home/ajayembr/public_html/ajay/post/user.php on line 65
+[02-Apr-2025 13:37:58 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'pdf_id' in 'SELECT' in /home/ajayembr/public_html/ajay/post/user.php:65
+Stack trace:
+#0 /home/ajayembr/public_html/ajay/post/user.php(65): mysqli_query()
+#1 {main}
+  thrown in /home/ajayembr/public_html/ajay/post/user.php on line 65
+[02-Apr-2025 13:40:26 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'pdf_id' in 'SELECT' in /home/ajayembr/public_html/ajay/post/user.php:65
+Stack trace:
+#0 /home/ajayembr/public_html/ajay/post/user.php(65): mysqli_query()
+#1 {main}
+  thrown in /home/ajayembr/public_html/ajay/post/user.php on line 65
+[02-Apr-2025 13:40:45 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'pdf_id' in 'SELECT' in /home/ajayembr/public_html/ajay/post/user.php:65
+Stack trace:
+#0 /home/ajayembr/public_html/ajay/post/user.php(65): mysqli_query()
+#1 {main}
+  thrown in /home/ajayembr/public_html/ajay/post/user.php on line 65

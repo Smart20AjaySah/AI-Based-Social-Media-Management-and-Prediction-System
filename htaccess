@@ -1,0 +1,25 @@
+# Disable directory listing
+Options -Indexes
+
+# Default index file
+DirectoryIndex owner/index.php
+
+# Enable mod_rewrite
+RewriteEngine On
+
+# Force HTTPS
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
+
+# Redirect www to non-www
+RewriteCond %{HTTP_HOST} ^www\.ajaysah\.in [NC]
+RewriteRule ^(.*)$ https://ajaysah.in/$1 [R=301,L]
+
+# Fix for PHP query strings
+RewriteCond %{THE_REQUEST} \?(.*)\sHTTP [NC]
+RewriteRule ^(.*)$ /$1?%1 [L,R=301,NE]
+
+# Allow CSS, JS, Images access
+<FilesMatch "\.(css|js|png|jpg|jpeg|gif|svg|ico)$">
+    Header set Access-Control-Allow-Origin "*"
+</FilesMatch>

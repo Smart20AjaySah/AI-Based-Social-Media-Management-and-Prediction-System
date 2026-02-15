@@ -1,0 +1,807 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Body Styling */
+html, body {
+    height: 100%;
+    background: #121212;
+    color: white;
+    margin: 0;
+    padding-bottom: 60px; /* Footer के लिए जगह */
+}
+
+/* Fixed Header */
+header {
+    width: 100%;
+    background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+.aventra{
+    flex-grow: 1;
+    text-align: center;
+    margin: 0;
+    font-size: 24px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+}
+
+/* Footer Navigation */
+#nav-menu-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #222; /* डार्क बैकग्राउंड */
+    padding: 10px 0;
+    text-align: center;
+    box-shadow: 0px -2px 10px rgba(255, 255, 255, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#nav-menu-footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* आइकन्स के बीच गैप */
+}
+
+#nav-menu-footer ul li {
+    display: inline-block;
+}
+
+#nav-menu-footer ul li a {
+    background: none;  /* बैकग्राउंड हटाना */
+    padding: 0;  /* एक्स्ट्रा पैडिंग हटाना */
+    display: flex; /* Default inline-block को हटाकर flex पर लाना */
+    justify-content: center;
+    align-items: center;
+}
+
+#nav-menu-footer ul li a:hover {
+    color: #f39c12; /* होवर करने पर ऑरेंज कलर */
+    transform: scale(1.2); /* हल्का ज़ूम इफेक्ट */
+}
+
+/* Heading Styling */
+header h1 {
+    font-size: 2rem;
+    background: linear-gradient(90deg, #ff8a00, #e52e71);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Navigation Bar */
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    font-weight: bold;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    transition: 0.3s ease;
+}
+
+nav ul li a:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.7);
+}
+
+/* Logout Button */
+.logout-btn {
+    margin-left: 10px;
+    margin-top: -20px;
+    background: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.logout-btn:hover {
+    background: darkred;
+}
+
+/* Hamburger Menu */
+.menu-btn {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.menu-btn div {
+    width: 30px;
+    height: 4px;
+    background: white;
+    transition: 0.3s;
+}
+
+/* Responsive Navigation */
+#nav-menu {
+    position: absolute;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    background: #1b1b1b;
+    text-align: center;
+    padding: 20px 0;
+    transition: 0.5s ease-in-out;
+    display: none;
+}
+
+#nav-menu.active {
+    display: block;
+    top: 60px;
+}
+
+#nav-menu ul {
+    flex-direction: row;
+    gap: 15px;
+}
+
+/* Main Content */
+main {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 20px;
+}
+
+/* Post Container */
+.home-all-post-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.post-card {
+    background: linear-gradient(145deg, #1e1e1e, #292929);
+    border-radius: 15px;
+    padding: 15px;
+    color: #fff;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.post-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+}
+
+/* Profile Picture Container */
+.profile-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+/* Profile Picture Styling */
+.profile-pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #fff;
+    transition: transform 0.3s ease;
+}
+
+/* Hover Effect */
+.profile-pic:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+/* Responsive Profile Picture */
+@media (max-width: 1024px) {
+    .profile-pic {
+        width: 45px;
+        height: 45px;
+    }
+}
+
+@media (max-width: 768px) {
+    .profile-container {
+        margin-right: 10px;
+    }
+    .profile-pic {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media (max-width: 480px) {
+    .profile-container {
+        margin-right: 5px;
+    }
+    .profile-pic {
+        width: 35px;
+        height: 35px;
+    }
+}
+
+/* Default: Hide Desktop Menu Button */
+.desktop-menu-btn {
+    display: none;
+}
+
+/* Mobile Screens: Show Mobile Menu Button, Hide Desktop Menu */
+@media (max-width: 768px) {
+    .mobile-menu-btn {
+        display: flex;
+    }
+    .desktop-menu-btn {
+        display: none;
+    }
+}
+
+/* Big Screens: Show Desktop Menu Button, Hide Mobile Menu */
+@media (min-width: 769px) {
+    .mobile-menu-btn {
+        display: none;
+    }
+    .desktop-menu-btn {
+        display: flex;
+        position: absolute;
+        top: 20px;
+        right: 30px;
+        cursor: pointer;
+    }
+}
+
+
+
+
+
+
+
+/* DIV home-all-post-container CSS */
+.home-all-post-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+}
+.post-card {
+    background: linear-gradient(145deg, #1e1e1e, #292929);
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px #141414, -10px -10px 20px #323232;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 15px;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.post-card:hover {
+    transform: scale(1.05);
+    box-shadow: 15px 15px 30px #0f0f0f, -15px -15px 30px #3a3a3a;
+}
+.post-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    flex-shrink: 0;
+}
+.post-content {
+    padding: 10px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.post-title {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.2);
+    color: #FFD700;
+}
+.post-category, .post-date, .post-username {
+    font-size: 16px;
+    color: #aaa;
+    margin-bottom: 5px;
+    text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.2);
+}
+.post-description {
+    font-size: 16px;
+    margin-top: 10px;
+    text-align: justify;
+    max-height: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+
+
+
+
+
+
+/* ADMIN-LOGIN CSS */
+.admin-login-container {
+    /* margin-top: 120px; */
+    width: 90%;
+    max-width: 350px;
+    /* margin: 50px auto; */
+    padding: 20px;
+    background: linear-gradient(145deg, #1e1e1e, #292929);
+    border-radius: 15px;
+    box-shadow: 8px 8px 15px #141414, -8px -8px 15px #2e2e2e;
+    text-align: center;
+    color: white;
+}
+
+/* Headings */
+.admin-login-container h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+/* Input Groups */
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background: #333;
+    color: white;
+    box-shadow: inset 5px 5px 10px #222, inset -5px -5px 10px #444;
+    transition: 0.3s;
+}
+
+.input-group input:focus {
+    outline: none;
+    background: #444;
+    box-shadow: inset 3px 3px 8px #222, inset -3px -3px 8px #555;
+}
+
+/* Login Button */
+.login-btn {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(145deg, #ff5500, #ff7700);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 5px 5px 10px #222, -5px -5px 10px #444;
+}
+
+.login-btn:hover {
+    background: linear-gradient(145deg, #ff7700, #ff5500);
+    transform: scale(1.05);
+}
+
+/* Forgot Password */
+.forgot-password {
+    display: block;
+    margin-top: 10px;
+    color: #ff7700;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.forgot-password:hover {
+    color: #ff5500;
+    text-decoration: underline;
+}
+
+/* Add Admin Button */
+.admin-login-container .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: linear-gradient(145deg, #0088ff, #00aaff);
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    box-shadow: 5px 5px 10px #222, -5px -5px 10px #444;
+    transition: 0.3s;
+}
+
+.admin-login-container .btn:hover {
+    background: linear-gradient(145deg, #00aaff, #0088ff);
+    transform: scale(1.05);
+}
+
+
+
+.admin-register-container {
+    margin-top: -50px;
+    margin-bottom: 50px;
+    width: 90%;
+    max-width: 350px;
+    /* margin: 50px auto; */
+    padding: 20px;
+    background: linear-gradient(145deg, #1c1c1c, #2a2a2a);
+    border-radius: 15px;
+    box-shadow: 8px 8px 15px #141414, -8px -8px 15px #2e2e2e;
+    text-align: center;
+    color: white;
+}
+
+/* Headings */
+.admin-register-container h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+/* Input Fields */
+.admin-register-container .input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.admin-register-container .input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.admin-register-container .input-group input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background: #333;
+    color: white;
+    box-shadow: inset 5px 5px 10px #222, inset -5px -5px 10px #444;
+    transition: 0.3s;
+}
+
+.admin-register-container .input-group input:focus {
+    outline: none;
+    background: #444;
+    box-shadow: inset 3px 3px 8px #222, inset -3px -3px 8px #555;
+}
+
+/* Register Button */
+.register-admin-btn {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(145deg, #007bff, #009fff);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 5px 5px 10px #222, -5px -5px 10px #444;
+}
+
+.register-admin-btn:hover {
+    background: linear-gradient(145deg, #009fff, #007bff);
+    transform: scale(1.05);
+}
+
+/* Responsive Design */
+@media (max-width: 400px) {
+    .admin-register-container,
+    .admin-login-container {
+        width: 95%;
+        padding: 15px;
+    }
+}
+
+
+
+
+
+
+
+
+
+/* ALL-USERS CSS */
+/* Main Container */
+.all-user-container {
+    margin-top: -50px;
+    margin-bottom: 50px;
+    width: 90%;
+    max-width: 600px;
+    /* margin: 20px auto; */
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* User Card */
+.user-card {
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    color: white;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    position: relative;
+}
+
+.user-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.4);
+}
+
+/* Labels */
+.user-card label {
+    font-weight: bold;
+    color: #ffcc00;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+/* Data Fields */
+.user-card span {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: block;
+    backdrop-filter: blur(5px);
+    font-size: 16px;
+}
+
+/* Remove Button */
+.remove-user-btn {
+    margin-top: 10px;
+    display: inline-block;
+    padding: 10px 20px;
+    background: linear-gradient(135deg, #ff0000, #cc0000);
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    transition: 0.3s;
+    box-shadow: 0px 5px 10px rgba(255, 0, 0, 0.5);
+    position: relative;
+    overflow: hidden;
+}
+
+.remove-user-btn::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.3);
+    transition: all 0.3s ease-in-out;
+}
+
+.remove-user-btn:hover::before {
+    left: 100%;
+}
+
+.remove-user-btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 10px 20px rgba(255, 0, 0, 0.7);
+}
+
+.remove-user-btn:active {
+    transform: scale(0.9);
+    box-shadow: 0px 3px 6px rgba(255, 0, 0, 0.8);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .all-user-container {
+        width: 95%;
+    }
+
+    .user-card {
+        padding: 12px;
+        gap: 6px;
+    }
+
+    .user-card label {
+        font-size: 12px;
+    }
+
+    .user-card span {
+        font-size: 14px;
+        padding: 4px 8px;
+    }
+
+    .remove-user-btn {
+        padding: 8px 15px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .all-user-container {
+        width: 100%;
+    }
+
+    .user-card {
+        padding: 10px;
+    }
+
+    .user-card label {
+        font-size: 11px;
+    }
+
+    .user-card span {
+        font-size: 13px;
+        padding: 3px 6px;
+    }
+
+    .remove-user-btn {
+        padding: 7px 12px;
+        font-size: 13px;
+    }
+}
+
+
+
+
+
+
+
+
+
+/* COMPLAIN-ACTION CSS */
+.complaint-action {
+    text-align: center;
+    margin-left: 20px;
+    margin-bottom: 50px;
+    margin-top: -50px;
+}
+
+.complain-text {
+    font-size: 2rem;
+    color: #ffcc00;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(255, 204, 0, 0.5);
+}
+
+/* Complaint Cards Container */
+.complain-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Complaint Card Styling */
+.complain-card {
+    background: linear-gradient(145deg, #222244, #191933);
+    box-shadow: 5px 5px 15px #000000, -5px -5px 15px #29294a;
+    border-radius: 15px;
+    padding: 20px;
+    width: 100%;
+    max-width: 500px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #ffffff;
+    border: 2px solid #ffcc00;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.complain-card:hover {
+    transform: scale(1.05);
+    box-shadow: 8px 8px 20px rgba(255, 204, 0, 0.5);
+}
+
+.complain-info {
+    font-size: 1rem;
+    color: #ffcc00;
+    margin: 0;
+    font-weight: bold;
+    background: rgba(255, 204, 0, 0.2);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: inset 2px 2px 5px rgba(255, 204, 0, 0.3), inset -2px -2px 5px rgba(0, 0, 0, 0.5);
+}
+
+/* Remove Button Styling */
+.remove-post-video {
+    background: linear-gradient(145deg, #ff4d4d, #ff0000);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s;
+}
+
+.remove-post-video:hover {
+    background: linear-gradient(145deg, #cc0000, #990000);
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px rgba(255, 0, 0, 0.7);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .complain-card {
+        padding: 15px;
+        width: 90%;
+    }
+
+    .complain-text {
+        font-size: 1.5rem;
+    }
+
+    .complain-info {
+        font-size: 0.9rem;
+        padding: 8px;
+    }
+
+    .remove-post-video {
+        font-size: 0.9rem;
+        padding: 8px 16px;
+    }
+}
+

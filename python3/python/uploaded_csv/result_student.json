@@ -1,0 +1,1 @@
+{"status": "ok", "theta": [[-0.0], [0.5], [0.25], [0.5], [0.25]], "divisor": 90.0, "x_columns": ["math_50", "physics_100", "chemistry_50", "english_100"], "y_column": "total_marks"}

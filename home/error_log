@@ -1,0 +1,814 @@
+[08-Mar-2025 10:16:35 UTC] PHP Warning:  include(/ajay/home/home-header.php): Failed to open stream: No such file or directory in /home/ajayembr/public_html/ajay/home/home.php on line 1
+[08-Mar-2025 10:16:35 UTC] PHP Warning:  include(): Failed opening '/ajay/home/home-header.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/ajayembr/public_html/ajay/home/home.php on line 1
+[08-Mar-2025 10:16:35 UTC] PHP Warning:  include(/ajay/home/conn.php): Failed to open stream: No such file or directory in /home/ajayembr/public_html/ajay/home/home.php on line 5
+[08-Mar-2025 10:16:35 UTC] PHP Warning:  include(): Failed opening '/ajay/home/conn.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/ajayembr/public_html/ajay/home/home.php on line 5
+[08-Mar-2025 10:16:35 UTC] PHP Warning:  Undefined variable $conn in /home/ajayembr/public_html/ajay/home/home.php on line 11
+[08-Mar-2025 10:16:35 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/ajayembr/public_html/ajay/home/home.php:11
+Stack trace:
+#0 /home/ajayembr/public_html/ajay/home/home.php(11): mysqli_query()
+#1 {main}
+  thrown in /home/ajayembr/public_html/ajay/home/home.php on line 11
+[08-Mar-2025 10:19:01 UTC] PHP Warning:  include(/ajay/home/conn.php): Failed to open stream: No such file or directory in /home/ajayembr/public_html/ajay/home/home-header.php on line 17
+[08-Mar-2025 10:19:01 UTC] PHP Warning:  include(): Failed opening '/ajay/home/conn.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/ajayembr/public_html/ajay/home/home-header.php on line 17
+[08-Mar-2025 10:19:01 UTC] PHP Warning:  Undefined variable $conn in /home/ajayembr/public_html/ajay/home/home-header.php on line 21
+[08-Mar-2025 10:19:01 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/ajayembr/public_html/ajay/home/home-header.php:21
+Stack trace:
+#0 /home/ajayembr/public_html/ajay/home/home-header.php(21): mysqli_query()
+#1 /home/ajayembr/public_html/ajay/home/home.php(1): include('/home/ajayembr/...')
+#2 {main}
+  thrown in /home/ajayembr/public_html/ajay/home/home-header.php on line 21
+[10-Mar-2025 05:44:38 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[10-Mar-2025 05:45:10 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[10-Mar-2025 06:46:04 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[10-Mar-2025 10:41:43 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[11-Mar-2025 15:07:05 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[11-Mar-2025 15:17:37 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[11-Mar-2025 15:17:54 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[11-Mar-2025 15:18:07 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[11-Mar-2025 15:18:13 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[11-Mar-2025 15:18:25 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[11-Mar-2025 15:18:26 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[11-Mar-2025 15:18:27 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[11-Mar-2025 15:18:28 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[11-Mar-2025 15:18:30 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[11-Mar-2025 15:18:32 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[11-Mar-2025 15:18:44 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[11-Mar-2025 15:18:46 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[11-Mar-2025 15:18:51 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[11-Mar-2025 15:18:52 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[11-Mar-2025 15:18:56 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[11-Mar-2025 15:18:57 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[11-Mar-2025 15:19:04 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[11-Mar-2025 15:19:05 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[11-Mar-2025 15:19:14 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[11-Mar-2025 15:19:16 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[11-Mar-2025 15:19:44 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[11-Mar-2025 15:20:26 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[11-Mar-2025 15:20:33 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[11-Mar-2025 15:20:35 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[11-Mar-2025 15:20:40 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[11-Mar-2025 15:20:42 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[11-Mar-2025 15:20:44 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[11-Mar-2025 15:20:46 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[11-Mar-2025 15:21:08 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[11-Mar-2025 15:21:36 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[11-Mar-2025 16:07:21 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[11-Mar-2025 16:07:22 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[11-Mar-2025 16:07:35 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[11-Mar-2025 16:07:57 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[11-Mar-2025 16:09:23 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[11-Mar-2025 18:22:13 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[11-Mar-2025 18:22:20 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[11-Mar-2025 18:22:28 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[12-Mar-2025 09:11:23 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[12-Mar-2025 09:11:27 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[12-Mar-2025 14:57:03 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[12-Mar-2025 14:57:12 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[12-Mar-2025 14:57:30 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[13-Mar-2025 08:42:35 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[13-Mar-2025 08:42:46 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[13-Mar-2025 09:48:07 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[13-Mar-2025 09:50:09 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[13-Mar-2025 09:52:45 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[13-Mar-2025 09:59:35 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[13-Mar-2025 09:59:41 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[13-Mar-2025 10:00:00 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[13-Mar-2025 10:00:45 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[13-Mar-2025 10:00:58 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[13-Mar-2025 10:01:26 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[13-Mar-2025 10:01:28 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[13-Mar-2025 10:01:36 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[13-Mar-2025 10:02:04 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[13-Mar-2025 10:02:18 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[13-Mar-2025 10:02:44 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[13-Mar-2025 10:03:15 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[13-Mar-2025 10:06:36 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[13-Mar-2025 10:07:56 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[13-Mar-2025 10:07:59 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[13-Mar-2025 10:08:39 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[13-Mar-2025 10:10:29 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[13-Mar-2025 10:10:50 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[13-Mar-2025 10:10:52 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[13-Mar-2025 10:10:55 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[13-Mar-2025 10:10:57 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[13-Mar-2025 10:11:31 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[13-Mar-2025 10:11:44 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[13-Mar-2025 10:11:49 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[13-Mar-2025 10:31:14 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[13-Mar-2025 10:37:00 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[13-Mar-2025 11:57:41 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[13-Mar-2025 12:37:50 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[13-Mar-2025 12:37:52 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[13-Mar-2025 12:38:12 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[13-Mar-2025 12:38:14 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[13-Mar-2025 12:38:39 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[13-Mar-2025 12:41:30 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[13-Mar-2025 12:41:34 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[13-Mar-2025 12:41:37 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[13-Mar-2025 12:41:40 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[13-Mar-2025 12:41:43 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[13-Mar-2025 12:42:24 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[13-Mar-2025 13:32:27 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[13-Mar-2025 18:46:26 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[13-Mar-2025 18:47:03 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[13-Mar-2025 18:47:08 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[14-Mar-2025 06:59:01 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[14-Mar-2025 06:59:04 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[14-Mar-2025 10:32:18 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[14-Mar-2025 10:32:28 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[14-Mar-2025 10:32:31 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[16-Mar-2025 06:11:51 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[16-Mar-2025 06:12:24 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[16-Mar-2025 06:12:27 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[16-Mar-2025 06:12:32 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[16-Mar-2025 06:12:41 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[16-Mar-2025 06:13:18 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[17-Mar-2025 04:51:55 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[17-Mar-2025 05:48:07 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[17-Mar-2025 05:48:11 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[17-Mar-2025 05:48:13 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[17-Mar-2025 05:48:16 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[17-Mar-2025 06:46:02 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[17-Mar-2025 06:46:13 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[17-Mar-2025 06:50:51 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[17-Mar-2025 06:50:56 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[17-Mar-2025 06:51:28 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[17-Mar-2025 06:54:51 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[17-Mar-2025 06:59:27 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[17-Mar-2025 07:01:17 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[17-Mar-2025 07:08:23 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[17-Mar-2025 07:42:12 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[17-Mar-2025 07:50:23 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[17-Mar-2025 07:50:32 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[17-Mar-2025 08:06:52 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[17-Mar-2025 08:07:51 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[17-Mar-2025 08:13:03 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[17-Mar-2025 11:23:57 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[17-Mar-2025 11:49:01 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[17-Mar-2025 11:50:01 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[17-Mar-2025 13:00:24 UTC] PHP Warning:  include(db_connect.php): Failed to open stream: No such file or directory in /home/ajayembr/public_html/ajay/home/search_backend.php on line 2
+[17-Mar-2025 13:00:24 UTC] PHP Warning:  include(): Failed opening 'db_connect.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/ajayembr/public_html/ajay/home/search_backend.php on line 2
+[17-Mar-2025 13:00:24 UTC] PHP Warning:  Undefined variable $conn in /home/ajayembr/public_html/ajay/home/search_backend.php on line 20
+[17-Mar-2025 13:00:24 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/ajayembr/public_html/ajay/home/search_backend.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/ajayembr/public_html/ajay/home/search_backend.php on line 20
+[17-Mar-2025 13:00:29 UTC] PHP Warning:  include(db_connect.php): Failed to open stream: No such file or directory in /home/ajayembr/public_html/ajay/home/search_backend.php on line 2
+[17-Mar-2025 13:00:29 UTC] PHP Warning:  include(): Failed opening 'db_connect.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/ajayembr/public_html/ajay/home/search_backend.php on line 2
+[17-Mar-2025 13:00:29 UTC] PHP Warning:  Undefined variable $conn in /home/ajayembr/public_html/ajay/home/search_backend.php on line 20
+[17-Mar-2025 13:00:29 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/ajayembr/public_html/ajay/home/search_backend.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/ajayembr/public_html/ajay/home/search_backend.php on line 20
+[17-Mar-2025 13:00:29 UTC] PHP Warning:  include(db_connect.php): Failed to open stream: No such file or directory in /home/ajayembr/public_html/ajay/home/search_backend.php on line 2
+[17-Mar-2025 13:00:29 UTC] PHP Warning:  include(): Failed opening 'db_connect.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/ajayembr/public_html/ajay/home/search_backend.php on line 2
+[17-Mar-2025 13:00:29 UTC] PHP Warning:  Undefined variable $conn in /home/ajayembr/public_html/ajay/home/search_backend.php on line 20
+[17-Mar-2025 13:00:29 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/ajayembr/public_html/ajay/home/search_backend.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/ajayembr/public_html/ajay/home/search_backend.php on line 20
+[17-Mar-2025 13:00:29 UTC] PHP Warning:  include(db_connect.php): Failed to open stream: No such file or directory in /home/ajayembr/public_html/ajay/home/search_backend.php on line 2
+[17-Mar-2025 13:00:29 UTC] PHP Warning:  include(): Failed opening 'db_connect.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/ajayembr/public_html/ajay/home/search_backend.php on line 2
+[17-Mar-2025 13:00:29 UTC] PHP Warning:  Undefined variable $conn in /home/ajayembr/public_html/ajay/home/search_backend.php on line 20
+[17-Mar-2025 13:00:29 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/ajayembr/public_html/ajay/home/search_backend.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/ajayembr/public_html/ajay/home/search_backend.php on line 20
+[17-Mar-2025 13:00:30 UTC] PHP Warning:  include(db_connect.php): Failed to open stream: No such file or directory in /home/ajayembr/public_html/ajay/home/search_backend.php on line 2
+[17-Mar-2025 13:00:30 UTC] PHP Warning:  include(): Failed opening 'db_connect.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/ajayembr/public_html/ajay/home/search_backend.php on line 2
+[17-Mar-2025 13:00:30 UTC] PHP Warning:  Undefined variable $conn in /home/ajayembr/public_html/ajay/home/search_backend.php on line 20
+[17-Mar-2025 13:00:30 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/ajayembr/public_html/ajay/home/search_backend.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/ajayembr/public_html/ajay/home/search_backend.php on line 20
+[17-Mar-2025 13:00:31 UTC] PHP Warning:  include(db_connect.php): Failed to open stream: No such file or directory in /home/ajayembr/public_html/ajay/home/search_backend.php on line 2
+[17-Mar-2025 13:00:31 UTC] PHP Warning:  include(): Failed opening 'db_connect.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/ajayembr/public_html/ajay/home/search_backend.php on line 2
+[17-Mar-2025 13:00:31 UTC] PHP Warning:  Undefined variable $conn in /home/ajayembr/public_html/ajay/home/search_backend.php on line 20
+[17-Mar-2025 13:00:31 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/ajayembr/public_html/ajay/home/search_backend.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/ajayembr/public_html/ajay/home/search_backend.php on line 20
+[17-Mar-2025 13:00:32 UTC] PHP Warning:  include(db_connect.php): Failed to open stream: No such file or directory in /home/ajayembr/public_html/ajay/home/search_backend.php on line 2
+[17-Mar-2025 13:00:32 UTC] PHP Warning:  include(): Failed opening 'db_connect.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/ajayembr/public_html/ajay/home/search_backend.php on line 2
+[17-Mar-2025 13:00:32 UTC] PHP Warning:  Undefined variable $conn in /home/ajayembr/public_html/ajay/home/search_backend.php on line 20
+[17-Mar-2025 13:00:32 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/ajayembr/public_html/ajay/home/search_backend.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/ajayembr/public_html/ajay/home/search_backend.php on line 20
+[17-Mar-2025 13:00:32 UTC] PHP Warning:  include(db_connect.php): Failed to open stream: No such file or directory in /home/ajayembr/public_html/ajay/home/search_backend.php on line 2
+[17-Mar-2025 13:00:32 UTC] PHP Warning:  include(): Failed opening 'db_connect.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/ajayembr/public_html/ajay/home/search_backend.php on line 2
+[17-Mar-2025 13:00:32 UTC] PHP Warning:  Undefined variable $conn in /home/ajayembr/public_html/ajay/home/search_backend.php on line 20
+[17-Mar-2025 13:00:32 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/ajayembr/public_html/ajay/home/search_backend.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/ajayembr/public_html/ajay/home/search_backend.php on line 20
+[17-Mar-2025 13:00:32 UTC] PHP Warning:  include(db_connect.php): Failed to open stream: No such file or directory in /home/ajayembr/public_html/ajay/home/search_backend.php on line 2
+[17-Mar-2025 13:00:32 UTC] PHP Warning:  include(): Failed opening 'db_connect.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/ajayembr/public_html/ajay/home/search_backend.php on line 2
+[17-Mar-2025 13:00:32 UTC] PHP Warning:  Undefined variable $conn in /home/ajayembr/public_html/ajay/home/search_backend.php on line 20
+[17-Mar-2025 13:00:32 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/ajayembr/public_html/ajay/home/search_backend.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/ajayembr/public_html/ajay/home/search_backend.php on line 20
+[17-Mar-2025 13:00:33 UTC] PHP Warning:  include(db_connect.php): Failed to open stream: No such file or directory in /home/ajayembr/public_html/ajay/home/search_backend.php on line 2
+[17-Mar-2025 13:00:33 UTC] PHP Warning:  include(): Failed opening 'db_connect.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/ajayembr/public_html/ajay/home/search_backend.php on line 2
+[17-Mar-2025 13:00:33 UTC] PHP Warning:  Undefined variable $conn in /home/ajayembr/public_html/ajay/home/search_backend.php on line 20
+[17-Mar-2025 13:00:33 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/ajayembr/public_html/ajay/home/search_backend.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/ajayembr/public_html/ajay/home/search_backend.php on line 20
+[17-Mar-2025 13:00:36 UTC] PHP Warning:  include(db_connect.php): Failed to open stream: No such file or directory in /home/ajayembr/public_html/ajay/home/search_backend.php on line 2
+[17-Mar-2025 13:00:36 UTC] PHP Warning:  include(): Failed opening 'db_connect.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/ajayembr/public_html/ajay/home/search_backend.php on line 2
+[17-Mar-2025 13:00:36 UTC] PHP Warning:  Undefined variable $conn in /home/ajayembr/public_html/ajay/home/search_backend.php on line 20
+[17-Mar-2025 13:00:36 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/ajayembr/public_html/ajay/home/search_backend.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/ajayembr/public_html/ajay/home/search_backend.php on line 20
+[17-Mar-2025 13:00:36 UTC] PHP Warning:  include(db_connect.php): Failed to open stream: No such file or directory in /home/ajayembr/public_html/ajay/home/search_backend.php on line 2
+[17-Mar-2025 13:00:36 UTC] PHP Warning:  include(): Failed opening 'db_connect.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/ajayembr/public_html/ajay/home/search_backend.php on line 2
+[17-Mar-2025 13:00:36 UTC] PHP Warning:  Undefined variable $conn in /home/ajayembr/public_html/ajay/home/search_backend.php on line 20
+[17-Mar-2025 13:00:36 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/ajayembr/public_html/ajay/home/search_backend.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/ajayembr/public_html/ajay/home/search_backend.php on line 20
+[17-Mar-2025 13:00:36 UTC] PHP Warning:  include(db_connect.php): Failed to open stream: No such file or directory in /home/ajayembr/public_html/ajay/home/search_backend.php on line 2
+[17-Mar-2025 13:00:36 UTC] PHP Warning:  include(): Failed opening 'db_connect.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/ajayembr/public_html/ajay/home/search_backend.php on line 2
+[17-Mar-2025 13:00:36 UTC] PHP Warning:  Undefined variable $conn in /home/ajayembr/public_html/ajay/home/search_backend.php on line 20
+[17-Mar-2025 13:00:36 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/ajayembr/public_html/ajay/home/search_backend.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/ajayembr/public_html/ajay/home/search_backend.php on line 20
+[17-Mar-2025 13:00:37 UTC] PHP Warning:  include(db_connect.php): Failed to open stream: No such file or directory in /home/ajayembr/public_html/ajay/home/search_backend.php on line 2
+[17-Mar-2025 13:00:37 UTC] PHP Warning:  include(): Failed opening 'db_connect.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/ajayembr/public_html/ajay/home/search_backend.php on line 2
+[17-Mar-2025 13:00:37 UTC] PHP Warning:  Undefined variable $conn in /home/ajayembr/public_html/ajay/home/search_backend.php on line 20
+[17-Mar-2025 13:00:37 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/ajayembr/public_html/ajay/home/search_backend.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/ajayembr/public_html/ajay/home/search_backend.php on line 20
+[17-Mar-2025 13:00:39 UTC] PHP Warning:  include(db_connect.php): Failed to open stream: No such file or directory in /home/ajayembr/public_html/ajay/home/search_backend.php on line 2
+[17-Mar-2025 13:00:39 UTC] PHP Warning:  include(): Failed opening 'db_connect.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/ajayembr/public_html/ajay/home/search_backend.php on line 2
+[17-Mar-2025 13:00:39 UTC] PHP Warning:  Undefined variable $conn in /home/ajayembr/public_html/ajay/home/search_backend.php on line 20
+[17-Mar-2025 13:00:39 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/ajayembr/public_html/ajay/home/search_backend.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/ajayembr/public_html/ajay/home/search_backend.php on line 20
+[17-Mar-2025 13:00:39 UTC] PHP Warning:  include(db_connect.php): Failed to open stream: No such file or directory in /home/ajayembr/public_html/ajay/home/search_backend.php on line 2
+[17-Mar-2025 13:00:39 UTC] PHP Warning:  include(): Failed opening 'db_connect.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/ajayembr/public_html/ajay/home/search_backend.php on line 2
+[17-Mar-2025 13:00:39 UTC] PHP Warning:  Undefined variable $conn in /home/ajayembr/public_html/ajay/home/search_backend.php on line 20
+[17-Mar-2025 13:00:39 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/ajayembr/public_html/ajay/home/search_backend.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/ajayembr/public_html/ajay/home/search_backend.php on line 20
+[17-Mar-2025 13:00:41 UTC] PHP Warning:  include(db_connect.php): Failed to open stream: No such file or directory in /home/ajayembr/public_html/ajay/home/search_backend.php on line 2
+[17-Mar-2025 13:00:41 UTC] PHP Warning:  include(): Failed opening 'db_connect.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/ajayembr/public_html/ajay/home/search_backend.php on line 2
+[17-Mar-2025 13:00:41 UTC] PHP Warning:  Undefined variable $conn in /home/ajayembr/public_html/ajay/home/search_backend.php on line 20
+[17-Mar-2025 13:00:41 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/ajayembr/public_html/ajay/home/search_backend.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/ajayembr/public_html/ajay/home/search_backend.php on line 20
+[17-Mar-2025 13:00:41 UTC] PHP Warning:  include(db_connect.php): Failed to open stream: No such file or directory in /home/ajayembr/public_html/ajay/home/search_backend.php on line 2
+[17-Mar-2025 13:00:41 UTC] PHP Warning:  include(): Failed opening 'db_connect.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/ajayembr/public_html/ajay/home/search_backend.php on line 2
+[17-Mar-2025 13:00:41 UTC] PHP Warning:  Undefined variable $conn in /home/ajayembr/public_html/ajay/home/search_backend.php on line 20
+[17-Mar-2025 13:00:41 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/ajayembr/public_html/ajay/home/search_backend.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/ajayembr/public_html/ajay/home/search_backend.php on line 20
+[17-Mar-2025 13:00:42 UTC] PHP Warning:  include(db_connect.php): Failed to open stream: No such file or directory in /home/ajayembr/public_html/ajay/home/search_backend.php on line 2
+[17-Mar-2025 13:00:42 UTC] PHP Warning:  include(): Failed opening 'db_connect.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/ajayembr/public_html/ajay/home/search_backend.php on line 2
+[17-Mar-2025 13:00:42 UTC] PHP Warning:  Undefined variable $conn in /home/ajayembr/public_html/ajay/home/search_backend.php on line 20
+[17-Mar-2025 13:00:42 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/ajayembr/public_html/ajay/home/search_backend.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/ajayembr/public_html/ajay/home/search_backend.php on line 20
+[17-Mar-2025 13:01:23 UTC] PHP Warning:  include(db_connect.php): Failed to open stream: No such file or directory in /home/ajayembr/public_html/ajay/home/search_backend.php on line 2
+[17-Mar-2025 13:01:23 UTC] PHP Warning:  include(): Failed opening 'db_connect.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/ajayembr/public_html/ajay/home/search_backend.php on line 2
+[17-Mar-2025 13:01:23 UTC] PHP Warning:  Undefined variable $conn in /home/ajayembr/public_html/ajay/home/search_backend.php on line 20
+[17-Mar-2025 13:01:23 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/ajayembr/public_html/ajay/home/search_backend.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/ajayembr/public_html/ajay/home/search_backend.php on line 20
+[17-Mar-2025 13:01:29 UTC] PHP Warning:  include(db_connect.php): Failed to open stream: No such file or directory in /home/ajayembr/public_html/ajay/home/search_backend.php on line 2
+[17-Mar-2025 13:01:29 UTC] PHP Warning:  include(): Failed opening 'db_connect.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/ajayembr/public_html/ajay/home/search_backend.php on line 2
+[17-Mar-2025 13:01:29 UTC] PHP Warning:  Undefined variable $conn in /home/ajayembr/public_html/ajay/home/search_backend.php on line 20
+[17-Mar-2025 13:01:29 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/ajayembr/public_html/ajay/home/search_backend.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/ajayembr/public_html/ajay/home/search_backend.php on line 20
+[17-Mar-2025 13:01:34 UTC] PHP Warning:  include(db_connect.php): Failed to open stream: No such file or directory in /home/ajayembr/public_html/ajay/home/search_backend.php on line 2
+[17-Mar-2025 13:01:34 UTC] PHP Warning:  include(): Failed opening 'db_connect.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/ajayembr/public_html/ajay/home/search_backend.php on line 2
+[17-Mar-2025 13:01:34 UTC] PHP Warning:  Undefined variable $conn in /home/ajayembr/public_html/ajay/home/search_backend.php on line 20
+[17-Mar-2025 13:01:34 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/ajayembr/public_html/ajay/home/search_backend.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/ajayembr/public_html/ajay/home/search_backend.php on line 20
+[17-Mar-2025 13:01:34 UTC] PHP Warning:  include(db_connect.php): Failed to open stream: No such file or directory in /home/ajayembr/public_html/ajay/home/search_backend.php on line 2
+[17-Mar-2025 13:01:34 UTC] PHP Warning:  include(): Failed opening 'db_connect.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/ajayembr/public_html/ajay/home/search_backend.php on line 2
+[17-Mar-2025 13:01:34 UTC] PHP Warning:  Undefined variable $conn in /home/ajayembr/public_html/ajay/home/search_backend.php on line 20
+[17-Mar-2025 13:01:34 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/ajayembr/public_html/ajay/home/search_backend.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/ajayembr/public_html/ajay/home/search_backend.php on line 20
+[17-Mar-2025 13:37:46 UTC] PHP Warning:  Undefined variable $row4 in /home/ajayembr/public_html/ajay/home/home-header.php on line 38
+[17-Mar-2025 13:37:46 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ajayembr/public_html/ajay/home/home-header.php on line 38
+[17-Mar-2025 13:37:58 UTC] PHP Warning:  Undefined variable $row4 in /home/ajayembr/public_html/ajay/home/home-header.php on line 38
+[17-Mar-2025 13:37:58 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ajayembr/public_html/ajay/home/home-header.php on line 38
+[17-Mar-2025 13:38:01 UTC] PHP Warning:  Undefined variable $row4 in /home/ajayembr/public_html/ajay/home/home-header.php on line 38
+[17-Mar-2025 13:38:01 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ajayembr/public_html/ajay/home/home-header.php on line 38
+[17-Mar-2025 13:38:04 UTC] PHP Warning:  Undefined variable $row4 in /home/ajayembr/public_html/ajay/home/home-header.php on line 38
+[17-Mar-2025 13:38:04 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ajayembr/public_html/ajay/home/home-header.php on line 38
+[17-Mar-2025 13:38:06 UTC] PHP Warning:  Undefined variable $row4 in /home/ajayembr/public_html/ajay/home/home-header.php on line 38
+[17-Mar-2025 13:38:06 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ajayembr/public_html/ajay/home/home-header.php on line 38
+[17-Mar-2025 13:38:13 UTC] PHP Warning:  Undefined variable $row4 in /home/ajayembr/public_html/ajay/home/home-header.php on line 38
+[17-Mar-2025 13:38:13 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ajayembr/public_html/ajay/home/home-header.php on line 38
+[17-Mar-2025 13:38:15 UTC] PHP Warning:  Undefined variable $row4 in /home/ajayembr/public_html/ajay/home/home-header.php on line 38
+[17-Mar-2025 13:38:15 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ajayembr/public_html/ajay/home/home-header.php on line 38
+[17-Mar-2025 13:38:34 UTC] PHP Warning:  Undefined variable $row4 in /home/ajayembr/public_html/ajay/home/home-header.php on line 38
+[17-Mar-2025 13:38:34 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ajayembr/public_html/ajay/home/home-header.php on line 38
+[17-Mar-2025 13:38:40 UTC] PHP Warning:  Undefined variable $row4 in /home/ajayembr/public_html/ajay/home/home-header.php on line 38
+[17-Mar-2025 13:38:40 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ajayembr/public_html/ajay/home/home-header.php on line 38
+[17-Mar-2025 13:38:57 UTC] PHP Warning:  Undefined variable $row4 in /home/ajayembr/public_html/ajay/home/home-header.php on line 38
+[17-Mar-2025 13:38:57 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ajayembr/public_html/ajay/home/home-header.php on line 38
+[17-Mar-2025 13:39:48 UTC] PHP Warning:  Undefined variable $row4 in /home/ajayembr/public_html/ajay/home/home-header.php on line 38
+[17-Mar-2025 13:39:48 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ajayembr/public_html/ajay/home/home-header.php on line 38
+[17-Mar-2025 13:41:03 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[17-Mar-2025 13:43:57 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[17-Mar-2025 13:47:55 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[17-Mar-2025 15:04:19 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[18-Mar-2025 03:29:42 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[19-Mar-2025 14:51:43 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[21-Mar-2025 13:56:26 UTC] PHP Warning:  Undefined array key "profile_img" in /home/ajayembr/public_html/ajay/home/home.php on line 42
+[21-Mar-2025 14:00:03 UTC] PHP Warning:  Undefined array key "profile_img" in /home/ajayembr/public_html/ajay/home/home.php on line 42
+[21-Mar-2025 14:00:46 UTC] PHP Warning:  Undefined array key "profile_img" in /home/ajayembr/public_html/ajay/home/home.php on line 42
+[21-Mar-2025 14:00:48 UTC] PHP Warning:  Undefined array key "profile_img" in /home/ajayembr/public_html/ajay/home/home.php on line 42
+[21-Mar-2025 14:00:51 UTC] PHP Warning:  Undefined array key "profile_img" in /home/ajayembr/public_html/ajay/home/home.php on line 42
+[21-Mar-2025 14:00:52 UTC] PHP Warning:  Undefined array key "profile_img" in /home/ajayembr/public_html/ajay/home/home.php on line 42
+[21-Mar-2025 14:00:56 UTC] PHP Warning:  Undefined array key "profile_img" in /home/ajayembr/public_html/ajay/home/home.php on line 42
+[21-Mar-2025 14:50:46 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[21-Mar-2025 14:52:52 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[21-Mar-2025 15:19:14 UTC] PHP Warning:  Undefined array key "profile_image" in /home/ajayembr/public_html/ajay/home/post-detail.php on line 16
+[21-Mar-2025 15:27:58 UTC] PHP Warning:  Undefined array key "id" in /home/ajayembr/public_html/ajay/home/post-detail.php on line 8
+[21-Mar-2025 15:27:58 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in /home/ajayembr/public_html/ajay/home/post-detail.php:10
+Stack trace:
+#0 /home/ajayembr/public_html/ajay/home/post-detail.php(10): mysqli_query()
+#1 {main}
+  thrown in /home/ajayembr/public_html/ajay/home/post-detail.php on line 10
+[21-Mar-2025 15:41:05 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[22-Mar-2025 06:50:26 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[22-Mar-2025 07:50:58 UTC] PHP Warning:  Undefined array key "profile_image" in /home/ajayembr/public_html/ajay/home/post-detail.php on line 17
+[22-Mar-2025 07:54:17 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'ajayembr_ajay_db.users' doesn't exist in /home/ajayembr/public_html/ajay/home/post-detail.php:13
+Stack trace:
+#0 /home/ajayembr/public_html/ajay/home/post-detail.php(13): mysqli_query()
+#1 {main}
+  thrown in /home/ajayembr/public_html/ajay/home/post-detail.php on line 13
+[22-Mar-2025 07:54:22 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'ajayembr_ajay_db.users' doesn't exist in /home/ajayembr/public_html/ajay/home/post-detail.php:13
+Stack trace:
+#0 /home/ajayembr/public_html/ajay/home/post-detail.php(13): mysqli_query()
+#1 {main}
+  thrown in /home/ajayembr/public_html/ajay/home/post-detail.php on line 13
+[22-Mar-2025 07:54:28 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'ajayembr_ajay_db.users' doesn't exist in /home/ajayembr/public_html/ajay/home/post-detail.php:13
+Stack trace:
+#0 /home/ajayembr/public_html/ajay/home/post-detail.php(13): mysqli_query()
+#1 {main}
+  thrown in /home/ajayembr/public_html/ajay/home/post-detail.php on line 13
+[22-Mar-2025 07:55:58 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'ajayembr_ajay_db.users' doesn't exist in /home/ajayembr/public_html/ajay/home/post-detail.php:13
+Stack trace:
+#0 /home/ajayembr/public_html/ajay/home/post-detail.php(13): mysqli_query()
+#1 {main}
+  thrown in /home/ajayembr/public_html/ajay/home/post-detail.php on line 13
+[22-Mar-2025 07:56:30 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'ajayembr_ajay_db.users' doesn't exist in /home/ajayembr/public_html/ajay/home/post-detail.php:13
+Stack trace:
+#0 /home/ajayembr/public_html/ajay/home/post-detail.php(13): mysqli_query()
+#1 {main}
+  thrown in /home/ajayembr/public_html/ajay/home/post-detail.php on line 13
+[22-Mar-2025 07:56:36 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'ajayembr_ajay_db.users' doesn't exist in /home/ajayembr/public_html/ajay/home/post-detail.php:13
+Stack trace:
+#0 /home/ajayembr/public_html/ajay/home/post-detail.php(13): mysqli_query()
+#1 {main}
+  thrown in /home/ajayembr/public_html/ajay/home/post-detail.php on line 13
+[22-Mar-2025 12:43:28 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[22-Mar-2025 13:14:24 UTC] PHP Warning:  Undefined array key "id" in /home/ajayembr/public_html/ajay/home/video-detail.php on line 10
+[22-Mar-2025 13:14:24 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 4 in /home/ajayembr/public_html/ajay/home/video-detail.php:12
+Stack trace:
+#0 /home/ajayembr/public_html/ajay/home/video-detail.php(12): mysqli_query()
+#1 {main}
+  thrown in /home/ajayembr/public_html/ajay/home/video-detail.php on line 12
+[22-Mar-2025 13:14:27 UTC] PHP Warning:  Undefined array key "id" in /home/ajayembr/public_html/ajay/home/video-detail.php on line 10
+[22-Mar-2025 13:14:27 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 4 in /home/ajayembr/public_html/ajay/home/video-detail.php:12
+Stack trace:
+#0 /home/ajayembr/public_html/ajay/home/video-detail.php(12): mysqli_query()
+#1 {main}
+  thrown in /home/ajayembr/public_html/ajay/home/video-detail.php on line 12
+[22-Mar-2025 13:15:12 UTC] PHP Warning:  Undefined array key "id" in /home/ajayembr/public_html/ajay/home/video-detail.php on line 10
+[22-Mar-2025 13:15:12 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 4 in /home/ajayembr/public_html/ajay/home/video-detail.php:12
+Stack trace:
+#0 /home/ajayembr/public_html/ajay/home/video-detail.php(12): mysqli_query()
+#1 {main}
+  thrown in /home/ajayembr/public_html/ajay/home/video-detail.php on line 12
+[22-Mar-2025 13:15:16 UTC] PHP Warning:  Undefined array key "id" in /home/ajayembr/public_html/ajay/home/video-detail.php on line 10
+[22-Mar-2025 13:15:16 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 4 in /home/ajayembr/public_html/ajay/home/video-detail.php:12
+Stack trace:
+#0 /home/ajayembr/public_html/ajay/home/video-detail.php(12): mysqli_query()
+#1 {main}
+  thrown in /home/ajayembr/public_html/ajay/home/video-detail.php on line 12
+[22-Mar-2025 14:53:21 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ajayembr/public_html/ajay/home/video-detail.php on line 20
+[22-Mar-2025 14:53:21 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ajayembr/public_html/ajay/home/video-detail.php on line 21
+[22-Mar-2025 14:53:21 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ajayembr/public_html/ajay/home/video-detail.php on line 22
+[22-Mar-2025 14:53:21 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ajayembr/public_html/ajay/home/video-detail.php on line 28
+[22-Mar-2025 14:53:21 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ajayembr/public_html/ajay/home/video-detail.php on line 34
+[22-Mar-2025 14:53:21 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ajayembr/public_html/ajay/home/video-detail.php on line 35
+[22-Mar-2025 14:53:21 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ajayembr/public_html/ajay/home/video-detail.php on line 36
+[22-Mar-2025 14:53:21 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ajayembr/public_html/ajay/home/video-detail.php on line 37
+[22-Mar-2025 14:58:07 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[22-Mar-2025 14:58:16 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[23-Mar-2025 07:35:44 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'WHERE' in /home/ajayembr/public_html/ajay/home/notifications.php:26
+Stack trace:
+#0 /home/ajayembr/public_html/ajay/home/notifications.php(26): mysqli->prepare()
+#1 {main}
+  thrown in /home/ajayembr/public_html/ajay/home/notifications.php on line 26
+[23-Mar-2025 07:35:56 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'WHERE' in /home/ajayembr/public_html/ajay/home/notifications.php:26
+Stack trace:
+#0 /home/ajayembr/public_html/ajay/home/notifications.php(26): mysqli->prepare()
+#1 {main}
+  thrown in /home/ajayembr/public_html/ajay/home/notifications.php on line 26
+[23-Mar-2025 07:36:14 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'WHERE' in /home/ajayembr/public_html/ajay/home/notifications.php:26
+Stack trace:
+#0 /home/ajayembr/public_html/ajay/home/notifications.php(26): mysqli->prepare()
+#1 {main}
+  thrown in /home/ajayembr/public_html/ajay/home/notifications.php on line 26
+[23-Mar-2025 10:19:42 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[23-Mar-2025 10:19:53 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[23-Mar-2025 10:20:03 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[23-Mar-2025 10:20:07 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[23-Mar-2025 10:25:13 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[23-Mar-2025 10:31:17 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[23-Mar-2025 11:05:20 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[23-Mar-2025 13:11:17 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[23-Mar-2025 14:34:34 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ajayembr/public_html/ajay/home/notifications.php on line 31
+[23-Mar-2025 14:34:34 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ajayembr/public_html/ajay/home/notifications.php on line 31
+[23-Mar-2025 14:34:38 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ajayembr/public_html/ajay/home/notifications.php on line 31
+[23-Mar-2025 14:34:38 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ajayembr/public_html/ajay/home/notifications.php on line 31
+[23-Mar-2025 15:50:22 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[24-Mar-2025 06:58:09 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/chat-with-user.php on line 2
+[25-Mar-2025 06:55:46 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ajayembr/public_html/ajay/home/notifications.php on line 31
+[25-Mar-2025 06:59:20 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ajayembr/public_html/ajay/home/notifications.php on line 35
+[25-Mar-2025 07:00:50 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ajayembr/public_html/ajay/home/notifications.php on line 35
+[25-Mar-2025 07:18:03 UTC] PHP Warning:  Undefined array key "pdf_file" in /home/ajayembr/public_html/ajay/home/pdf-detail.php on line 30
+[25-Mar-2025 07:38:39 UTC] PHP Warning:  Undefined array key "pdf_file" in /home/ajayembr/public_html/ajay/home/pdf-detail.php on line 30
+[25-Mar-2025 07:38:52 UTC] PHP Warning:  Undefined array key "pdf_file" in /home/ajayembr/public_html/ajay/home/pdf-detail.php on line 30
+[25-Mar-2025 07:44:41 UTC] PHP Warning:  Undefined array key "pdf_file" in /home/ajayembr/public_html/ajay/home/pdf-detail.php on line 30
+[25-Mar-2025 07:44:48 UTC] PHP Warning:  Undefined array key "pdf_file" in /home/ajayembr/public_html/ajay/home/pdf-detail.php on line 30
+[25-Mar-2025 07:52:39 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ajayembr/public_html/ajay/home/notifications.php on line 35
+[25-Mar-2025 07:52:39 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ajayembr/public_html/ajay/home/notifications.php on line 36
+[25-Mar-2025 14:15:45 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ajayembr/public_html/ajay/home/post-detail.php on line 34
+[25-Mar-2025 14:15:45 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ajayembr/public_html/ajay/home/post-detail.php on line 35
+[25-Mar-2025 14:15:45 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ajayembr/public_html/ajay/home/post-detail.php on line 36
+[25-Mar-2025 14:15:45 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ajayembr/public_html/ajay/home/post-detail.php on line 41
+[25-Mar-2025 14:15:45 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ajayembr/public_html/ajay/home/post-detail.php on line 52
+[25-Mar-2025 14:15:45 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ajayembr/public_html/ajay/home/post-detail.php on line 53
+[25-Mar-2025 14:15:45 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ajayembr/public_html/ajay/home/post-detail.php on line 54
+[25-Mar-2025 14:15:45 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ajayembr/public_html/ajay/home/post-detail.php on line 55
+[25-Mar-2025 14:15:53 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ajayembr/public_html/ajay/home/post-detail.php on line 34
+[25-Mar-2025 14:15:53 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ajayembr/public_html/ajay/home/post-detail.php on line 35
+[25-Mar-2025 14:15:53 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ajayembr/public_html/ajay/home/post-detail.php on line 36
+[25-Mar-2025 14:15:53 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ajayembr/public_html/ajay/home/post-detail.php on line 41
+[25-Mar-2025 14:15:53 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ajayembr/public_html/ajay/home/post-detail.php on line 52
+[25-Mar-2025 14:15:53 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ajayembr/public_html/ajay/home/post-detail.php on line 53
+[25-Mar-2025 14:15:53 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ajayembr/public_html/ajay/home/post-detail.php on line 54
+[25-Mar-2025 14:15:53 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ajayembr/public_html/ajay/home/post-detail.php on line 55
+[25-Mar-2025 14:15:59 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ajayembr/public_html/ajay/home/post-detail.php on line 34
+[25-Mar-2025 14:15:59 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ajayembr/public_html/ajay/home/post-detail.php on line 35
+[25-Mar-2025 14:15:59 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ajayembr/public_html/ajay/home/post-detail.php on line 36
+[25-Mar-2025 14:15:59 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ajayembr/public_html/ajay/home/post-detail.php on line 41
+[25-Mar-2025 14:15:59 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ajayembr/public_html/ajay/home/post-detail.php on line 52
+[25-Mar-2025 14:15:59 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ajayembr/public_html/ajay/home/post-detail.php on line 53
+[25-Mar-2025 14:15:59 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ajayembr/public_html/ajay/home/post-detail.php on line 54
+[25-Mar-2025 14:15:59 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ajayembr/public_html/ajay/home/post-detail.php on line 55
+[25-Mar-2025 14:17:03 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ajayembr/public_html/ajay/home/post-detail.php on line 34
+[25-Mar-2025 14:17:03 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ajayembr/public_html/ajay/home/post-detail.php on line 35
+[25-Mar-2025 14:17:03 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ajayembr/public_html/ajay/home/post-detail.php on line 36
+[25-Mar-2025 14:17:03 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ajayembr/public_html/ajay/home/post-detail.php on line 41
+[25-Mar-2025 14:17:03 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ajayembr/public_html/ajay/home/post-detail.php on line 52
+[25-Mar-2025 14:17:03 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ajayembr/public_html/ajay/home/post-detail.php on line 53
+[25-Mar-2025 14:17:03 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ajayembr/public_html/ajay/home/post-detail.php on line 54
+[25-Mar-2025 14:17:03 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ajayembr/public_html/ajay/home/post-detail.php on line 55
+[25-Mar-2025 14:18:25 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ajayembr/public_html/ajay/home/post-detail.php on line 34
+[25-Mar-2025 14:18:25 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ajayembr/public_html/ajay/home/post-detail.php on line 35
+[25-Mar-2025 14:18:25 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ajayembr/public_html/ajay/home/post-detail.php on line 36
+[25-Mar-2025 14:18:25 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ajayembr/public_html/ajay/home/post-detail.php on line 41
+[25-Mar-2025 14:18:25 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ajayembr/public_html/ajay/home/post-detail.php on line 52
+[25-Mar-2025 14:18:25 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ajayembr/public_html/ajay/home/post-detail.php on line 53
+[25-Mar-2025 14:18:25 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ajayembr/public_html/ajay/home/post-detail.php on line 54
+[25-Mar-2025 14:18:25 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ajayembr/public_html/ajay/home/post-detail.php on line 55
+[25-Mar-2025 14:18:31 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ajayembr/public_html/ajay/home/post-detail.php on line 34
+[25-Mar-2025 14:18:31 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ajayembr/public_html/ajay/home/post-detail.php on line 35
+[25-Mar-2025 14:18:31 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ajayembr/public_html/ajay/home/post-detail.php on line 36
+[25-Mar-2025 14:18:31 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ajayembr/public_html/ajay/home/post-detail.php on line 41
+[25-Mar-2025 14:18:31 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ajayembr/public_html/ajay/home/post-detail.php on line 52
+[25-Mar-2025 14:18:31 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ajayembr/public_html/ajay/home/post-detail.php on line 53
+[25-Mar-2025 14:18:31 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ajayembr/public_html/ajay/home/post-detail.php on line 54
+[25-Mar-2025 14:18:31 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ajayembr/public_html/ajay/home/post-detail.php on line 55
+[25-Mar-2025 14:19:41 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ajayembr/public_html/ajay/home/post-detail.php on line 34
+[25-Mar-2025 14:19:41 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ajayembr/public_html/ajay/home/post-detail.php on line 35
+[25-Mar-2025 14:19:41 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ajayembr/public_html/ajay/home/post-detail.php on line 36
+[25-Mar-2025 14:19:41 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ajayembr/public_html/ajay/home/post-detail.php on line 41
+[25-Mar-2025 14:19:41 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ajayembr/public_html/ajay/home/post-detail.php on line 52
+[25-Mar-2025 14:19:41 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ajayembr/public_html/ajay/home/post-detail.php on line 53
+[25-Mar-2025 14:19:41 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ajayembr/public_html/ajay/home/post-detail.php on line 54
+[25-Mar-2025 14:19:41 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ajayembr/public_html/ajay/home/post-detail.php on line 55
+[25-Mar-2025 14:20:00 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ajayembr/public_html/ajay/home/post-detail.php on line 34
+[25-Mar-2025 14:20:00 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ajayembr/public_html/ajay/home/post-detail.php on line 35
+[25-Mar-2025 14:20:00 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ajayembr/public_html/ajay/home/post-detail.php on line 36
+[25-Mar-2025 14:20:00 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ajayembr/public_html/ajay/home/post-detail.php on line 41
+[25-Mar-2025 14:20:00 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ajayembr/public_html/ajay/home/post-detail.php on line 52
+[25-Mar-2025 14:20:00 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ajayembr/public_html/ajay/home/post-detail.php on line 53
+[25-Mar-2025 14:20:00 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ajayembr/public_html/ajay/home/post-detail.php on line 54
+[25-Mar-2025 14:20:00 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ajayembr/public_html/ajay/home/post-detail.php on line 55
+[25-Mar-2025 14:24:42 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ajayembr/public_html/ajay/home/post-detail.php on line 34
+[25-Mar-2025 14:24:42 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ajayembr/public_html/ajay/home/post-detail.php on line 35
+[25-Mar-2025 14:24:42 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ajayembr/public_html/ajay/home/post-detail.php on line 36
+[25-Mar-2025 14:24:42 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ajayembr/public_html/ajay/home/post-detail.php on line 41
+[25-Mar-2025 14:24:42 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ajayembr/public_html/ajay/home/post-detail.php on line 52
+[25-Mar-2025 14:24:42 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ajayembr/public_html/ajay/home/post-detail.php on line 53
+[25-Mar-2025 14:24:42 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ajayembr/public_html/ajay/home/post-detail.php on line 54
+[25-Mar-2025 14:24:42 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ajayembr/public_html/ajay/home/post-detail.php on line 55
+[25-Mar-2025 16:43:21 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/home.php on line 5
+[25-Mar-2025 16:43:24 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/home.php on line 5
+[25-Mar-2025 16:43:51 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/ajayembr/public_html/ajay/home/home.php on line 5
+[25-Mar-2025 16:52:12 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ajayembr/public_html/ajay/home/notifications.php on line 35
+[25-Mar-2025 16:52:12 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ajayembr/public_html/ajay/home/notifications.php on line 36
+[26-Mar-2025 01:46:40 UTC] PHP Warning:  Undefined array key "post_id" in /home/ajayembr/public_html/ajay/home/complain.php on line 25
+[02-Apr-2025 13:40:33 UTC] PHP Warning:  Undefined array key "pdf_id" in /home/ajayembr/public_html/ajay/home/show-pdf.php on line 17
+[02-Apr-2025 14:03:57 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'post_id' in 'SELECT' in /home/ajayembr/public_html/ajay/home/notifications.php:26
+Stack trace:
+#0 /home/ajayembr/public_html/ajay/home/notifications.php(26): mysqli->prepare()
+#1 {main}
+  thrown in /home/ajayembr/public_html/ajay/home/notifications.php on line 26
+[02-Apr-2025 14:06:27 UTC] PHP Parse error:  syntax error, unexpected token ":" in /home/ajayembr/public_html/ajay/home/notifications.php on line 49
+[02-Apr-2025 14:06:29 UTC] PHP Parse error:  syntax error, unexpected token ":" in /home/ajayembr/public_html/ajay/home/notifications.php on line 49
+[02-Apr-2025 14:06:30 UTC] PHP Parse error:  syntax error, unexpected token ":" in /home/ajayembr/public_html/ajay/home/notifications.php on line 49
+[02-Apr-2025 14:06:36 UTC] PHP Parse error:  syntax error, unexpected token ":" in /home/ajayembr/public_html/ajay/home/notifications.php on line 49
+[02-Apr-2025 14:06:38 UTC] PHP Parse error:  syntax error, unexpected token ":" in /home/ajayembr/public_html/ajay/home/notifications.php on line 49
+[02-Apr-2025 14:07:05 UTC] PHP Parse error:  syntax error, unexpected token ":" in /home/ajayembr/public_html/ajay/home/notifications.php on line 49
+[02-Apr-2025 14:07:08 UTC] PHP Parse error:  syntax error, unexpected token ":" in /home/ajayembr/public_html/ajay/home/notifications.php on line 49
+[02-Apr-2025 14:12:45 UTC] PHP Parse error:  syntax error, unexpected token ":" in /home/ajayembr/public_html/ajay/home/notifications.php on line 50
+[02-Apr-2025 14:12:47 UTC] PHP Parse error:  syntax error, unexpected token ":" in /home/ajayembr/public_html/ajay/home/notifications.php on line 50
+[02-Apr-2025 14:18:18 UTC] PHP Warning:  Undefined variable $file_id in /home/ajayembr/public_html/ajay/home/pdf-detail.php on line 60
+[02-Apr-2025 14:18:31 UTC] PHP Warning:  Undefined array key "pdf_id" in /home/ajayembr/public_html/ajay/home/show-pdf.php on line 17
+[02-Apr-2025 14:36:35 UTC] PHP Warning:  Undefined array key "pdf_id" in /home/ajayembr/public_html/ajay/home/show-pdf.php on line 17
+[02-Apr-2025 17:36:35 UTC] PHP Warning:  Undefined array key "pdf_id" in /home/ajayembr/public_html/ajay/home/show-pdf.php on line 17
+[02-Apr-2025 17:36:48 UTC] PHP Warning:  Undefined array key "pdf_id" in /home/ajayembr/public_html/ajay/home/show-pdf.php on line 17
+[02-Apr-2025 17:36:54 UTC] PHP Warning:  Undefined variable $file_id in /home/ajayembr/public_html/ajay/home/pdf-detail.php on line 60
+[02-Apr-2025 17:58:48 UTC] PHP Warning:  Undefined array key "pdf_id" in /home/ajayembr/public_html/ajay/home/show-pdf.php on line 17
+[02-Apr-2025 17:58:58 UTC] PHP Warning:  Undefined variable $file_id in /home/ajayembr/public_html/ajay/home/pdf-detail.php on line 60
+[02-Apr-2025 18:18:43 UTC] PHP Warning:  Undefined variable $file_id in /home/ajayembr/public_html/ajay/home/pdf-detail.php on line 60
+[02-Apr-2025 18:21:50 UTC] PHP Warning:  Undefined variable $file_id in /home/ajayembr/public_html/ajay/home/pdf-detail.php on line 60
+[02-Apr-2025 18:23:24 UTC] PHP Warning:  Undefined variable $file_id in /home/ajayembr/public_html/ajay/home/pdf-detail.php on line 60
+[02-Apr-2025 18:26:02 UTC] PHP Warning:  Undefined variable $file_id in /home/ajayembr/public_html/ajay/home/pdf-detail.php on line 60
+[02-Apr-2025 18:28:58 UTC] PHP Warning:  Undefined variable $file_id in /home/ajayembr/public_html/ajay/home/pdf-detail.php on line 60
+[02-Apr-2025 18:32:43 UTC] PHP Warning:  Undefined variable $file_id in /home/ajayembr/public_html/ajay/home/pdf-detail.php on line 60
+[02-Apr-2025 18:35:52 UTC] PHP Warning:  Undefined variable $file_id in /home/ajayembr/public_html/ajay/home/pdf-detail.php on line 60
+[02-Apr-2025 18:39:49 UTC] PHP Warning:  Undefined variable $file_id in /home/ajayembr/public_html/ajay/home/pdf-detail.php on line 60
+[02-Apr-2025 18:39:54 UTC] PHP Warning:  Undefined array key "pdf_id" in /home/ajayembr/public_html/ajay/home/show-pdf.php on line 17
+[02-Apr-2025 19:05:02 UTC] PHP Warning:  Undefined variable $file_id in /home/ajayembr/public_html/ajay/home/pdf-detail.php on line 60
+[02-Apr-2025 19:05:07 UTC] PHP Warning:  Undefined array key "pdf_id" in /home/ajayembr/public_html/ajay/home/show-pdf.php on line 17
+[02-Apr-2025 19:11:27 UTC] PHP Warning:  Undefined variable $file_id in /home/ajayembr/public_html/ajay/home/pdf-detail.php on line 60
+[02-Apr-2025 19:11:56 UTC] PHP Warning:  Undefined array key "pdf_id" in /home/ajayembr/public_html/ajay/home/show-pdf.php on line 17
+[03-Apr-2025 04:51:41 UTC] PHP Warning:  Undefined variable $file_id in /home/ajayembr/public_html/ajay/home/pdf-detail.php on line 60
+[03-Apr-2025 04:51:53 UTC] PHP Warning:  Undefined array key "pdf_id" in /home/ajayembr/public_html/ajay/home/show-pdf.php on line 17
+[03-Apr-2025 04:52:14 UTC] PHP Warning:  Undefined array key "pdf_id" in /home/ajayembr/public_html/ajay/home/show-pdf.php on line 17
+[03-Apr-2025 06:10:34 UTC] PHP Warning:  Undefined array key "pdf_id" in /home/ajayembr/public_html/ajay/home/show-pdf.php on line 17
+[03-Apr-2025 06:11:36 UTC] PHP Warning:  Undefined array key "pdf_id" in /home/ajayembr/public_html/ajay/home/show-pdf.php on line 17
+[03-Apr-2025 06:13:09 UTC] PHP Warning:  Undefined array key "pdf_id" in /home/ajayembr/public_html/ajay/home/show-pdf.php on line 17
+[03-Apr-2025 06:13:09 UTC] PHP Warning:  Undefined array key "pdf_id" in /home/ajayembr/public_html/ajay/home/show-pdf.php on line 17
+[03-Apr-2025 06:13:18 UTC] PHP Warning:  Undefined array key "pdf_id" in /home/ajayembr/public_html/ajay/home/show-pdf.php on line 17
+[03-Apr-2025 06:13:18 UTC] PHP Warning:  Undefined array key "pdf_id" in /home/ajayembr/public_html/ajay/home/show-pdf.php on line 17
+[03-Apr-2025 06:15:17 UTC] PHP Warning:  Undefined array key "pdf_id" in /home/ajayembr/public_html/ajay/home/show-pdf.php on line 17
+[03-Apr-2025 06:15:17 UTC] PHP Warning:  Undefined array key "pdf_id" in /home/ajayembr/public_html/ajay/home/show-pdf.php on line 17
+[03-Apr-2025 06:22:40 UTC] PHP Warning:  Undefined array key "pdf_id" in /home/ajayembr/public_html/ajay/home/show-pdf.php on line 17
+[03-Apr-2025 06:22:40 UTC] PHP Warning:  Undefined array key "pdf_id" in /home/ajayembr/public_html/ajay/home/show-pdf.php on line 17
+[03-Apr-2025 06:22:59 UTC] PHP Warning:  Undefined array key "pdf_id" in /home/ajayembr/public_html/ajay/home/show-pdf.php on line 17
+[03-Apr-2025 06:22:59 UTC] PHP Warning:  Undefined array key "pdf_id" in /home/ajayembr/public_html/ajay/home/show-pdf.php on line 17
+[03-Apr-2025 06:25:49 UTC] PHP Warning:  Undefined array key "pdf_id" in /home/ajayembr/public_html/ajay/home/show-pdf.php on line 17
+[03-Apr-2025 06:25:49 UTC] PHP Warning:  Undefined array key "pdf_id" in /home/ajayembr/public_html/ajay/home/show-pdf.php on line 17
+[03-Apr-2025 06:34:58 UTC] PHP Parse error:  Unmatched '}' in /home/ajayembr/public_html/ajay/home/download-pdf.php on line 42
+[03-Apr-2025 06:35:05 UTC] PHP Parse error:  Unmatched '}' in /home/ajayembr/public_html/ajay/home/download-pdf.php on line 42
+[03-Apr-2025 06:37:41 UTC] File URL: https://ajaysah.in/ajay/post/uploaded-files/IMPORTANT NOTICE_25.pdf
+[03-Apr-2025 06:37:41 UTC] Converted File Path: /home/ajayembr/public_html/ajay/post/uploaded-files/IMPORTANT NOTICE_25.pdf
+[03-Apr-2025 06:37:45 UTC] File URL: https://ajaysah.in/ajay/post/uploaded-files/Couple Cards - Naughty_2.0_APKPure.zip
+[03-Apr-2025 06:37:45 UTC] Converted File Path: /home/ajayembr/public_html/ajay/post/uploaded-files/Couple Cards - Naughty_2.0_APKPure.zip
+[03-Apr-2025 06:38:03 UTC] PHP Warning:  Undefined variable $file_id in /home/ajayembr/public_html/ajay/home/pdf-detail.php on line 60
+[03-Apr-2025 06:39:44 UTC] File URL: https://ajaysah.in/ajay/post/uploaded-files/IMPORTANT NOTICE_25.pdf
+[03-Apr-2025 06:39:44 UTC] Converted File Path: /home/ajayembr/public_html/ajay/post/uploaded-files/IMPORTANT NOTICE_25.pdf
+[03-Apr-2025 10:20:47 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'ajayembr_ajay_db.users' doesn't exist in /home/ajayembr/public_html/ajay/home/chat.php:15
+Stack trace:
+#0 /home/ajayembr/public_html/ajay/home/chat.php(15): mysqli_query()
+#1 {main}
+  thrown in /home/ajayembr/public_html/ajay/home/chat.php on line 15
+[03-Apr-2025 10:20:49 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'ajayembr_ajay_db.users' doesn't exist in /home/ajayembr/public_html/ajay/home/chat.php:15
+Stack trace:
+#0 /home/ajayembr/public_html/ajay/home/chat.php(15): mysqli_query()
+#1 {main}
+  thrown in /home/ajayembr/public_html/ajay/home/chat.php on line 15
+[03-Apr-2025 10:24:22 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'blocker_id' in 'WHERE' in /home/ajayembr/public_html/ajay/home/chat.php:16
+Stack trace:
+#0 /home/ajayembr/public_html/ajay/home/chat.php(16): mysqli_query()
+#1 {main}
+  thrown in /home/ajayembr/public_html/ajay/home/chat.php on line 16
+[03-Apr-2025 10:24:26 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'blocker_id' in 'WHERE' in /home/ajayembr/public_html/ajay/home/chat.php:16
+Stack trace:
+#0 /home/ajayembr/public_html/ajay/home/chat.php(16): mysqli_query()
+#1 {main}
+  thrown in /home/ajayembr/public_html/ajay/home/chat.php on line 16
+[03-Apr-2025 10:25:53 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 44
+[03-Apr-2025 10:25:53 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 44
+[03-Apr-2025 10:26:02 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 44
+[03-Apr-2025 10:26:02 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 44
+[03-Apr-2025 10:26:05 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 44
+[03-Apr-2025 10:26:05 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 44
+[03-Apr-2025 10:26:40 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 44
+[03-Apr-2025 10:26:40 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 44
+[03-Apr-2025 10:26:51 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 44
+[03-Apr-2025 10:26:51 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 44
+[03-Apr-2025 10:26:51 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 44
+[03-Apr-2025 10:26:57 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 44
+[03-Apr-2025 10:26:57 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 44
+[03-Apr-2025 10:26:57 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 44
+[03-Apr-2025 10:27:04 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 44
+[03-Apr-2025 10:27:04 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 44
+[03-Apr-2025 10:30:58 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 48
+[03-Apr-2025 10:31:15 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 48
+[03-Apr-2025 10:31:15 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 48
+[03-Apr-2025 10:31:29 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 48
+[03-Apr-2025 10:31:39 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 48
+[03-Apr-2025 10:32:55 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 48
+[03-Apr-2025 10:33:19 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 48
+[03-Apr-2025 10:33:19 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 48
+[03-Apr-2025 10:33:19 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 48
+[03-Apr-2025 10:33:25 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 48
+[03-Apr-2025 10:33:25 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 48
+[03-Apr-2025 10:33:25 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 48
+[03-Apr-2025 10:33:27 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 48
+[03-Apr-2025 10:33:27 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 48
+[03-Apr-2025 10:33:27 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 48
+[03-Apr-2025 10:36:10 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 48
+[03-Apr-2025 10:36:10 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 48
+[03-Apr-2025 10:36:10 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 48
+[03-Apr-2025 10:36:27 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 48
+[03-Apr-2025 10:36:27 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 48
+[03-Apr-2025 10:36:27 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 48
+[03-Apr-2025 10:36:31 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 48
+[03-Apr-2025 10:36:31 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 48
+[03-Apr-2025 10:36:31 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 48
+[03-Apr-2025 10:36:33 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 48
+[03-Apr-2025 10:36:33 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 48
+[03-Apr-2025 10:36:33 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 48
+[03-Apr-2025 10:37:27 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 48
+[03-Apr-2025 10:37:27 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 48
+[03-Apr-2025 10:37:27 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 48
+[03-Apr-2025 10:38:57 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 50
+[03-Apr-2025 10:38:57 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 50
+[03-Apr-2025 10:38:57 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 50
+[03-Apr-2025 10:39:07 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 50
+[03-Apr-2025 10:39:07 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 50
+[03-Apr-2025 10:39:07 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 50
+[03-Apr-2025 10:39:22 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 50
+[03-Apr-2025 10:39:22 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 50
+[03-Apr-2025 10:39:22 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 50
+[03-Apr-2025 10:39:31 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 50
+[03-Apr-2025 10:39:31 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 50
+[03-Apr-2025 10:39:42 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 50
+[03-Apr-2025 10:39:51 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 50
+[03-Apr-2025 10:39:53 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 50
+[03-Apr-2025 10:46:45 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 46
+[03-Apr-2025 10:46:45 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 46
+[03-Apr-2025 10:47:29 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 46
+[03-Apr-2025 10:47:29 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 46
+[03-Apr-2025 10:52:22 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 46
+[03-Apr-2025 10:52:22 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 46
+[03-Apr-2025 11:06:04 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 46
+[03-Apr-2025 11:06:04 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 46
+[03-Apr-2025 11:06:36 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 46
+[03-Apr-2025 11:06:36 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 46
+[03-Apr-2025 11:15:12 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 46
+[03-Apr-2025 11:15:12 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 46
+[03-Apr-2025 11:21:42 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 46
+[03-Apr-2025 11:21:42 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 46
+[03-Apr-2025 11:25:03 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 46
+[03-Apr-2025 11:25:03 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 46
+[03-Apr-2025 11:29:51 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 46
+[03-Apr-2025 11:29:51 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 46
+[03-Apr-2025 11:30:19 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 46
+[03-Apr-2025 11:30:19 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 46
+[03-Apr-2025 11:30:57 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 46
+[03-Apr-2025 11:30:57 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 46
+[03-Apr-2025 11:31:56 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 46
+[03-Apr-2025 11:31:56 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 46
+[03-Apr-2025 11:36:35 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 46
+[03-Apr-2025 11:36:35 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 46
+[03-Apr-2025 11:38:23 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 46
+[03-Apr-2025 11:38:23 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 46
+[03-Apr-2025 11:38:35 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 46
+[03-Apr-2025 11:38:35 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 46
+[03-Apr-2025 11:39:47 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 46
+[03-Apr-2025 11:39:47 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 46
+[03-Apr-2025 11:39:50 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 46
+[03-Apr-2025 11:39:50 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 46
+[03-Apr-2025 11:39:52 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 46
+[03-Apr-2025 11:39:52 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 46
+[03-Apr-2025 11:39:57 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 46
+[03-Apr-2025 11:39:57 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 46
+[03-Apr-2025 11:40:09 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 46
+[03-Apr-2025 11:40:09 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 46
+[03-Apr-2025 11:40:18 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 46
+[03-Apr-2025 11:40:18 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 46
+[03-Apr-2025 11:40:39 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 46
+[03-Apr-2025 11:40:39 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 46
+[03-Apr-2025 11:41:45 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 46
+[03-Apr-2025 11:41:45 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 46
+[03-Apr-2025 11:41:50 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 46
+[03-Apr-2025 11:41:50 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 46
+[03-Apr-2025 11:43:04 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 46
+[03-Apr-2025 11:43:04 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 46
+[03-Apr-2025 18:06:50 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 46
+[03-Apr-2025 18:06:50 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 46
+[03-Apr-2025 18:07:03 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 46
+[03-Apr-2025 18:07:03 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 46
+[03-Apr-2025 18:07:09 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 46
+[03-Apr-2025 18:07:09 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 46
+[03-Apr-2025 23:30:30 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 46
+[03-Apr-2025 23:30:30 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 46
+[03-Apr-2025 23:30:34 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 46
+[03-Apr-2025 23:30:34 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 46
+[04-Apr-2025 12:24:50 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 46
+[04-Apr-2025 12:24:50 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 46
+[08-Apr-2025 10:14:55 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 46
+[08-Apr-2025 10:14:55 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 46
+[08-Apr-2025 10:17:08 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 46
+[08-Apr-2025 10:17:08 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 46
+[08-Apr-2025 10:56:17 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 46
+[08-Apr-2025 10:56:17 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 46
+[08-Apr-2025 10:56:37 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 46
+[08-Apr-2025 10:56:37 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 46
+[08-Apr-2025 15:30:52 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 46
+[08-Apr-2025 15:30:52 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 46
+[08-Apr-2025 15:30:59 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 46
+[08-Apr-2025 15:30:59 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 46
+[09-Apr-2025 06:12:10 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 46
+[09-Apr-2025 06:12:10 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 46
+[10-Apr-2025 17:48:08 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 46
+[10-Apr-2025 17:48:08 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 46
+[10-Apr-2025 17:48:13 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Too many connections in /home/ajayembr/public_html/ajay/home/conn.php:9
+Stack trace:
+#0 /home/ajayembr/public_html/ajay/home/conn.php(9): mysqli->__construct()
+#1 /home/ajayembr/public_html/ajay/home/fetch-messages.php(2): include('/home/ajayembr/...')
+#2 {main}
+  thrown in /home/ajayembr/public_html/ajay/home/conn.php on line 9
+[10-Apr-2025 17:48:18 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 46
+[10-Apr-2025 17:48:20 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 46
+[10-Apr-2025 17:48:20 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Too many connections in /home/ajayembr/public_html/ajay/home/conn.php:9
+Stack trace:
+#0 /home/ajayembr/public_html/ajay/home/conn.php(9): mysqli->__construct()
+#1 /home/ajayembr/public_html/ajay/home/fetch-messages.php(2): include('/home/ajayembr/...')
+#2 {main}
+  thrown in /home/ajayembr/public_html/ajay/home/conn.php on line 9
+[10-Apr-2025 17:48:21 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Too many connections in /home/ajayembr/public_html/ajay/home/conn.php:9
+Stack trace:
+#0 /home/ajayembr/public_html/ajay/home/conn.php(9): mysqli->__construct()
+#1 /home/ajayembr/public_html/ajay/home/fetch-messages.php(2): include('/home/ajayembr/...')
+#2 {main}
+  thrown in /home/ajayembr/public_html/ajay/home/conn.php on line 9
+[10-Apr-2025 17:48:33 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Too many connections in /home/ajayembr/public_html/ajay/home/conn.php:9
+Stack trace:
+#0 /home/ajayembr/public_html/ajay/home/conn.php(9): mysqli->__construct()
+#1 /home/ajayembr/public_html/ajay/home/home-footer.php(14): include('/home/ajayembr/...')
+#2 /home/ajayembr/public_html/ajay/home/notifications.php(66): include('/home/ajayembr/...')
+#3 {main}
+  thrown in /home/ajayembr/public_html/ajay/home/conn.php on line 9
+[10-Apr-2025 17:48:33 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Too many connections in /home/ajayembr/public_html/ajay/home/conn.php:9
+Stack trace:
+#0 /home/ajayembr/public_html/ajay/home/conn.php(9): mysqli->__construct()
+#1 /home/ajayembr/public_html/ajay/home/fetch-messages.php(2): include('/home/ajayembr/...')
+#2 {main}
+  thrown in /home/ajayembr/public_html/ajay/home/conn.php on line 9
+[10-Apr-2025 17:48:41 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Too many connections in /home/ajayembr/public_html/ajay/home/conn.php:9
+Stack trace:
+#0 /home/ajayembr/public_html/ajay/home/conn.php(9): mysqli->__construct()
+#1 /home/ajayembr/public_html/ajay/home/home-footer.php(14): include('/home/ajayembr/...')
+#2 /home/ajayembr/public_html/ajay/home/chat-with-user.php(151): include('/home/ajayembr/...')
+#3 {main}
+  thrown in /home/ajayembr/public_html/ajay/home/conn.php on line 9
+[10-Apr-2025 17:48:44 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Too many connections in /home/ajayembr/public_html/ajay/home/conn.php:9
+Stack trace:
+#0 /home/ajayembr/public_html/ajay/home/conn.php(9): mysqli->__construct()
+#1 /home/ajayembr/public_html/ajay/home/fetch-messages.php(2): include('/home/ajayembr/...')
+#2 {main}
+  thrown in /home/ajayembr/public_html/ajay/home/conn.php on line 9
+[10-Apr-2025 17:48:46 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Too many connections in /home/ajayembr/public_html/ajay/home/conn.php:9
+Stack trace:
+#0 /home/ajayembr/public_html/ajay/home/conn.php(9): mysqli->__construct()
+#1 /home/ajayembr/public_html/ajay/home/fetch-messages.php(2): include('/home/ajayembr/...')
+#2 {main}
+  thrown in /home/ajayembr/public_html/ajay/home/conn.php on line 9
+[10-Apr-2025 17:48:51 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 46
+[10-Apr-2025 17:48:53 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 46
+[11-Apr-2025 14:00:08 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 46
+[11-Apr-2025 14:00:08 UTC] PHP Warning:  Undefined variable $logged_in_user in /home/ajayembr/public_html/ajay/home/chat.php on line 46
