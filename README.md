@@ -6,6 +6,6 @@ Steps:
 5. Install Xampp
 6. Double Tap on xampp-control.exe (which is in your xampp folder)
 7. Run Apache and MySQL
-8. Open any browser and Type: http://localhost:8080/
+8. Open any browser and Type: http://localhost:8080/ajay/
 9. Open "http://localhost:8080/phpmyadmin/"
 10. Create New Database "ajayembr" AND import "ajayembr_ajay_db.sql" file
